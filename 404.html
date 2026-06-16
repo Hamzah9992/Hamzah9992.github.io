@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hamzah — Premium Websites</title>
+  <meta name="robots" content="noindex" />
+  <style>
+    html, body { margin: 0; width: 100%; min-height: 100%; background: #08090d; }
+    iframe { position: fixed; inset: 0; width: 100%; height: 100%; border: 0; background: #08090d; }
+  </style>
+</head>
+<body>
+  <iframe id="site" title="Hamzah portfolio website" loading="eager" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <script>
+    const target = new URL(window.location.pathname + window.location.search + window.location.hash, 'https://hamzahfullstack.pages.dev');
+    document.getElementById('site').src = target.href;
+  </script>
+</body>
+</html>
