@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+<title id="title">App-style class booking mockup</title><desc id="desc">Mobile app screens showing class booking, coach choice, and membership status.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff4d00"/><stop offset="1" stop-color="#e8ff3d"/></linearGradient></defs>
+<rect width="760" height="520" rx="36" fill="#10131b"/>
+<g transform="translate(90 54)">
+  <rect width="170" height="384" rx="34" fill="#080b10" stroke="#ffffff"/><rect x="16" y="20" width="138" height="342" rx="24" fill="#111827"/><text x="38" y="72" fill="#fff" font-family="Arial" font-size="21" font-weight="900">Classes</text><rect x="36" y="112" width="98" height="34" rx="17" fill="url(#g)"/><rect x="36" y="166" width="98" height="34" rx="17" fill="#202b3d"/><rect x="36" y="220" width="98" height="34" rx="17" fill="#202b3d"/><rect x="36" y="296" width="98" height="40" rx="20" fill="#e8ff3d"/>
+</g>
+<g transform="translate(296 54)">
+  <rect width="170" height="384" rx="34" fill="#080b10" stroke="#ffffff"/><rect x="16" y="20" width="138" height="342" rx="24" fill="#111827"/><text x="38" y="72" fill="#fff" font-family="Arial" font-size="21" font-weight="900">Coach</text><circle cx="85" cy="142" r="48" fill="#ff4d00"/><rect x="40" y="220" width="90" height="12" rx="6" fill="#30394c"/><rect x="40" y="252" width="90" height="12" rx="6" fill="#30394c"/><rect x="36" y="296" width="98" height="40" rx="20" fill="#ff4d00"/>
+</g>
+<g transform="translate(502 54)">
+  <rect width="170" height="384" rx="34" fill="#080b10" stroke="#ffffff"/><rect x="16" y="20" width="138" height="342" rx="24" fill="#111827"/><text x="38" y="72" fill="#fff" font-family="Arial" font-size="21" font-weight="900">Booked</text><circle cx="85" cy="156" r="54" fill="none" stroke="#273142" stroke-width="14"/><path d="M62 156l18 18 34-42" fill="none" stroke="#1ee6a8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/><rect x="36" y="260" width="98" height="40" rx="20" fill="#1ee6a8"/>
+</g>
+</svg>

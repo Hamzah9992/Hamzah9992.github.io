@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="720" viewBox="0 0 1050 720" role="img" aria-label="Luxury real estate visual mockup">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#071722"/><stop offset=".45" stop-color="#0d1b2a"/><stop offset="1" stop-color="#c8a45d"/></linearGradient>
+    <linearGradient id="gold" x1="0" x2="1"><stop stop-color="#f5df9d"/><stop offset="1" stop-color="#b98935"/></linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1050" height="720" rx="28" fill="url(#g)"/>
+
+  <rect x="95" y="90" width="860" height="520" rx="34" fill="#fff9eb"/>
+  <circle cx="270" cy="248" r="96" fill="#173449"/>
+  <circle cx="270" cy="224" r="38" fill="#d7ae61"/>
+  <path d="M190 340 C214 288 326 288 350 340" fill="#d7ae61" opacity=".85"/>
+  <text x="430" y="185" fill="#142231" font-family="Georgia,serif" font-size="46" font-weight="700">Agent trust structure</text>
+  <text x="430" y="242" fill="#68707a" font-family="Arial" font-size="25">Private tours, seller strategy, buyer shortlist, and negotiation support.</text>
+  <g font-family="Arial" font-size="24" font-weight="700">
+    <rect x="430" y="305" width="150" height="90" rx="18" fill="#173449"/><text x="467" y="359" fill="#f8e7b2">42</text><text x="455" y="388" fill="#fff">Listings</text>
+    <rect x="610" y="305" width="150" height="90" rx="18" fill="#173449"/><text x="653" y="359" fill="#f8e7b2">18</text><text x="638" y="388" fill="#fff">Areas</text>
+    <rect x="790" y="305" width="120" height="90" rx="18" fill="#173449"/><text x="829" y="359" fill="#f8e7b2">24h</text><text x="812" y="388" fill="#fff">Reply</text>
+  </g>
+  <rect x="430" y="455" width="340" height="54" rx="18" fill="url(#gold)"/>
+  <text x="463" y="491" fill="#172532" font-family="Arial" font-size="22" font-weight="700">Request a confidential viewing</text>
+
+</svg>

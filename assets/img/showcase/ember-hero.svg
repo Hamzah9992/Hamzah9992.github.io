@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1050" viewBox="0 0 1800 1050" role="img" aria-labelledby="title desc">
+<title id="title">Warm premium restaurant interior</title><desc id="desc">A calm cinematic restaurant room with candlelight, open fire, dining tables, plants, and a refined bar counter.</desc>
+<defs>
+  <linearGradient id="room" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080806"/><stop offset=".42" stop-color="#1b120b"/><stop offset="1" stop-color="#060604"/></linearGradient>
+  <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3d2414"/><stop offset="1" stop-color="#120b07"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe4a8"/><stop offset=".55" stop-color="#c48742"/><stop offset="1" stop-color="#6b2c0d"/></linearGradient>
+  <radialGradient id="lamp" cx="50%" cy="50%" r="50%"><stop stop-color="#ffe7ad" stop-opacity=".95"/><stop offset=".32" stop-color="#d58b3e" stop-opacity=".45"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="12"/></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1800" height="1050" fill="url(#room)"/>
+<rect y="0" width="1800" height="420" fill="#050504" opacity=".46"/>
+<circle cx="1220" cy="260" r="260" fill="url(#lamp)" opacity=".52"/>
+<circle cx="1480" cy="310" r="210" fill="url(#lamp)" opacity=".34"/>
+<g opacity=".46" stroke="#b8793d" stroke-width="4"><path d="M1120 90v280"/><path d="M1310 70v300"/><path d="M1520 105v270"/></g>
+<g filter="url(#glow)"><ellipse cx="1120" cy="380" rx="135" ry="26" fill="#ffe2a2" opacity=".62"/><ellipse cx="1310" cy="375" rx="155" ry="28" fill="#ffd48e" opacity=".45"/><ellipse cx="1520" cy="385" rx="120" ry="22" fill="#f6bd73" opacity=".38"/></g>
+<rect x="925" y="385" width="680" height="280" rx="38" fill="#0d0b08" stroke="#d2a86a" stroke-opacity=".2"/>
+<rect x="975" y="448" width="585" height="145" rx="28" fill="url(#wood)" stroke="#d2a86a" stroke-opacity=".16"/>
+<path d="M1135 575 C1108 515 1167 492 1143 442 C1210 494 1231 535 1196 596 C1265 552 1328 575 1358 634 C1267 611 1192 620 1085 650 C1095 621 1112 595 1135 575Z" fill="url(#gold)" opacity=".88"/>
+<rect x="170" y="685" width="1280" height="105" rx="52" fill="#2b2118" stroke="#d2a86a" stroke-opacity=".22"/>
+<rect x="220" y="715" width="780" height="24" rx="12" fill="#f4dca6" opacity=".18"/>
+<rect x="1050" y="715" width="340" height="24" rx="12" fill="#f4dca6" opacity=".14"/>
+<g fill="#f8e7c8" opacity=".86"><circle cx="300" cy="660" r="50"/><circle cx="455" cy="660" r="50"/><circle cx="610" cy="660" r="50"/><circle cx="765" cy="660" r="50"/></g>
+<g opacity=".58"><rect x="170" y="820" width="360" height="80" rx="26" fill="#15100b" stroke="#d2a86a" stroke-opacity=".18"/><rect x="600" y="820" width="430" height="82" rx="26" fill="#15100b" stroke="#d2a86a" stroke-opacity=".18"/><rect x="1100" y="815" width="360" height="88" rx="26" fill="#15100b" stroke="#d2a86a" stroke-opacity=".18"/></g>
+<g stroke="#d8a25f" stroke-width="4" opacity=".36"><path d="M220 565 C300 485 390 470 465 515"/><path d="M250 528 C320 460 380 455 430 485"/><path d="M780 565 C850 500 920 492 990 530"/></g>
+<circle cx="185" cy="510" r="105" fill="#7d5a2b" opacity=".14" filter="url(#soft)"/>
+<circle cx="1570" cy="730" r="150" fill="#b66f2d" opacity=".12" filter="url(#soft)"/>
+</svg>

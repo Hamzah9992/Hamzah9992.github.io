@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+<title id="title">Trainer card mockups</title><desc id="desc">Three fitness trainer cards with specialties and booking indicators.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff4d00"/><stop offset="1" stop-color="#e8ff3d"/></linearGradient></defs>
+<rect width="760" height="520" rx="36" fill="#10131b"/>
+<text x="48" y="78" fill="#fff" font-size="30" font-family="Arial" font-weight="900">Coach Lineup</text>
+<text x="48" y="106" fill="#aeb6c7" font-size="15" font-family="Arial">Trainer profiles designed for trust and quick booking.</text>
+<g transform="translate(48 148)">
+  <g>
+    <rect width="196" height="300" rx="30" fill="#192232" stroke="#ffffff" opacity=".98"/>
+    <circle cx="98" cy="76" r="44" fill="url(#g)"/><path d="M70 82c22-32 53-32 76 0" fill="none" stroke="#151515" stroke-width="10" stroke-linecap="round"/>
+    <text x="28" y="158" fill="#fff" font-family="Arial" font-size="21" font-weight="900">Amara</text><text x="28" y="185" fill="#cbd5e1" font-family="Arial" font-size="13">Strength foundations</text>
+    <rect x="28" y="220" width="140" height="34" rx="17" fill="#ff4d00"/><text x="52" y="242" fill="#160600" font-family="Arial" font-size="12" font-weight="900">BOOK INTRO</text>
+  </g>
+  <g transform="translate(222)">
+    <rect width="196" height="300" rx="30" fill="#192232" stroke="#ffffff" opacity=".98"/>
+    <circle cx="98" cy="76" r="44" fill="#e8ff3d"/><path d="M74 94c24-38 45-38 70 0" fill="none" stroke="#151515" stroke-width="10" stroke-linecap="round"/>
+    <text x="28" y="158" fill="#fff" font-family="Arial" font-size="21" font-weight="900">Ilyas</text><text x="28" y="185" fill="#cbd5e1" font-family="Arial" font-size="13">Mobility and core</text>
+    <rect x="28" y="220" width="140" height="34" rx="17" fill="#e8ff3d"/><text x="52" y="242" fill="#111" font-family="Arial" font-size="12" font-weight="900">VIEW CLASS</text>
+  </g>
+  <g transform="translate(444)">
+    <rect width="196" height="300" rx="30" fill="#192232" stroke="#ffffff" opacity=".98"/>
+    <circle cx="98" cy="76" r="44" fill="#1ee6a8"/><path d="M68 78h60m-30-30v60" stroke="#151515" stroke-width="10" stroke-linecap="round"/>
+    <text x="28" y="158" fill="#fff" font-family="Arial" font-size="21" font-weight="900">Rhea</text><text x="28" y="185" fill="#cbd5e1" font-family="Arial" font-size="13">HIIT and conditioning</text>
+    <rect x="28" y="220" width="140" height="34" rx="17" fill="#1ee6a8"/><text x="50" y="242" fill="#06110d" font-family="Arial" font-size="12" font-weight="900">JOIN GROUP</text>
+  </g>
+</g>
+</svg>

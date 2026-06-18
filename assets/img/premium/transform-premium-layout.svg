@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+  <title id="title">Premium website after layout mockup</title>
+  <desc id="desc">A premium website layout mockup with strong hierarchy, rich visuals, clarity blocks, and clear calls to action.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101827"/><stop offset="1" stop-color="#090B12"/></linearGradient><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#67E8F9"/><stop offset=".5" stop-color="#A78BFA"/><stop offset="1" stop-color="#F9C784"/></linearGradient><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000" flood-opacity=".36"/></filter></defs>
+  <rect width="760" height="520" rx="38" fill="url(#bg)"/><circle cx="610" cy="100" r="96" fill="#67E8F9" opacity=".1"/><circle cx="112" cy="410" r="110" fill="#A78BFA" opacity=".1"/>
+  <g filter="url(#sh)"><rect x="78" y="62" width="604" height="392" rx="34" fill="#0D1320" stroke="#fff" stroke-opacity=".12"/>
+    <rect x="112" y="98" width="536" height="58" rx="22" fill="#141B2B"/><circle cx="142" cy="127" r="16" fill="url(#a)"/><rect x="172" y="118" width="120" height="18" rx="9" fill="#fff" opacity=".78"/><rect x="512" y="112" width="104" height="30" rx="15" fill="url(#a)"/>
+    <rect x="112" y="196" width="284" height="22" rx="11" fill="#fff" opacity=".85"/><rect x="112" y="232" width="362" height="12" rx="6" fill="#fff" opacity=".22"/><rect x="112" y="254" width="302" height="12" rx="6" fill="#fff" opacity=".14"/>
+    <rect x="112" y="304" width="126" height="42" rx="21" fill="url(#a)"/><rect x="260" y="304" width="126" height="42" rx="21" fill="#121A2A" stroke="#fff" stroke-opacity=".14"/>
+    <rect x="506" y="190" width="112" height="156" rx="24" fill="#162033"/><rect x="528" y="222" width="68" height="56" rx="16" fill="url(#a)" opacity=".82"/><rect x="528" y="298" width="68" height="10" rx="5" fill="#fff" opacity=".62"/>
+    <rect x="112" y="386" width="152" height="38" rx="17" fill="#141B2B"/><rect x="304" y="386" width="152" height="38" rx="17" fill="#141B2B"/><rect x="496" y="386" width="122" height="38" rx="17" fill="#141B2B"/>
+  </g><text x="100" y="486" fill="#DDE7FF" font-family="Inter,Arial" font-size="18" font-weight="900">After · premium hierarchy, proof, and conversion flow</text>
+</svg>

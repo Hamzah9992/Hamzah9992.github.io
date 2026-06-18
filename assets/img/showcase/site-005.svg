@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-label="SaaS analytics dashboard mockup">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#050816"/><stop offset=".52" stop-color="#07111f"/><stop offset="1" stop-color="#193cff"/></linearGradient>
+    <linearGradient id="cyan" x1="0" x2="1"><stop stop-color="#6ee7ff"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000" flood-opacity=".45"/></filter>
+  </defs>
+  <rect width="900" height="560" rx="28" fill="url(#bg)"/>
+  <circle cx="774" cy="89" r="180" fill="#6ee7ff" opacity=".12"/>
+  <circle cx="135" cy="481" r="220" fill="#8b5cf6" opacity=".13"/>
+  
+  <g filter="url(#shadow)">
+    <rect x="72" y="68" width="756" height="424" rx="34" fill="#0b1224" stroke="#2f4fff"/>
+    <rect x="104" y="100" width="130" height="360" rx="24" fill="#070b18"/>
+    <text x="128" y="145" fill="#6ee7ff" font-family="Arial" font-size="20" font-weight="900">SaaS</text>
+    <rect x="270" y="110" width="500" height="64" rx="20" fill="#111c39"/>
+    <text x="300" y="151" fill="#f8fbff" font-family="Arial" font-size="28" font-weight="800">Analytics Platform</text>
+    <rect x="270" y="210" width="140" height="102" rx="22" fill="#111c39"/><rect x="430" y="210" width="140" height="102" rx="22" fill="#111c39"/><rect x="590" y="210" width="180" height="102" rx="22" fill="#111c39"/>
+    <text x="298" y="270" fill="#6ee7ff" font-family="Arial" font-size="32" font-weight="900">MRR</text><text x="462" y="270" fill="#a78bfa" font-family="Arial" font-size="32" font-weight="900">KPI</text><text x="630" y="270" fill="#34d399" font-family="Arial" font-size="32" font-weight="900">Live</text>
+    <path d="M300 420 C380 330 455 430 530 340 S650 425 742 316" fill="none" stroke="url(#cyan)" stroke-width="9" stroke-linecap="round"/>
+    <rect x="600" y="84" width="170" height="44" rx="22" fill="#6ee7ff"/>
+    <text x="624" y="113" fill="#07111f" font-family="Arial" font-size="17" font-weight="800">Premium upgraded</text>
+  </g>
+
+</svg>

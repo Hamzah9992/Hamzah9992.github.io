@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="700" viewBox="0 0 1080 700" role="img" aria-label="SaaS analytics dashboard mockup">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#050816"/><stop offset=".52" stop-color="#07111f"/><stop offset="1" stop-color="#193cff"/></linearGradient>
+    <linearGradient id="cyan" x1="0" x2="1"><stop stop-color="#6ee7ff"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000" flood-opacity=".45"/></filter>
+  </defs>
+  <rect width="1080" height="700" rx="28" fill="url(#bg)"/>
+  <circle cx="928" cy="112" r="180" fill="#6ee7ff" opacity=".12"/>
+  <circle cx="162" cy="602" r="220" fill="#8b5cf6" opacity=".13"/>
+
+  <g filter="url(#shadow)">
+    <rect x="100" y="92" width="880" height="516" rx="38" fill="#0b1224"/>
+    <circle cx="540" cy="350" r="104" fill="#111c39" stroke="#6ee7ff" stroke-width="4"/><text x="476" y="360" fill="#f8fbff" font-family="Arial" font-size="31" font-weight="800">Core API</text>
+    <g fill="#111c39" stroke="#2c4a97" stroke-width="3">
+      <rect x="158" y="170" width="176" height="72" rx="22"/><rect x="746" y="170" width="176" height="72" rx="22"/><rect x="158" y="460" width="176" height="72" rx="22"/><rect x="746" y="460" width="176" height="72" rx="22"/><rect x="452" y="110" width="176" height="72" rx="22"/><rect x="452" y="520" width="176" height="72" rx="22"/>
+    </g>
+    <g stroke="url(#cyan)" stroke-width="5" opacity=".75"><path d="M334 206 L450 305"/><path d="M746 206 L630 305"/><path d="M334 496 L450 396"/><path d="M746 496 L630 396"/><path d="M540 182 V246"/><path d="M540 520 V454"/></g>
+    <g fill="#f8fbff" font-family="Arial" font-size="22" font-weight="700"><text x="198" y="216">Stripe</text><text x="784" y="216">Slack</text><text x="194" y="506">CRM</text><text x="788" y="506">Sheets</text><text x="500" y="156">API</text><text x="488" y="566">Export</text></g>
+  </g>
+
+</svg>

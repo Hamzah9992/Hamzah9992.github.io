@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="680" viewBox="0 0 1080 680" role="img" aria-label="SaaS analytics dashboard mockup">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#050816"/><stop offset=".52" stop-color="#07111f"/><stop offset="1" stop-color="#193cff"/></linearGradient>
+    <linearGradient id="cyan" x1="0" x2="1"><stop stop-color="#6ee7ff"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000" flood-opacity=".45"/></filter>
+  </defs>
+  <rect width="1080" height="680" rx="28" fill="url(#bg)"/>
+  <circle cx="928" cy="108" r="180" fill="#6ee7ff" opacity=".12"/>
+  <circle cx="162" cy="584" r="220" fill="#8b5cf6" opacity=".13"/>
+
+  <g filter="url(#shadow)">
+    <rect x="90" y="92" width="900" height="496" rx="34" fill="#090f1f"/>
+    <text x="134" y="160" fill="#f8fbff" font-family="Arial" font-size="42" font-weight="800">KPI command center</text>
+    <g font-family="Arial">
+      <rect x="134" y="214" width="240" height="150" rx="26" fill="#111c39"/><text x="162" y="276" fill="#6ee7ff" font-size="44" font-weight="900">$124k</text><text x="162" y="326" fill="#8ea1be" font-size="22">Revenue tracked</text>
+      <rect x="420" y="214" width="240" height="150" rx="26" fill="#111c39"/><text x="448" y="276" fill="#a78bfa" font-size="44" font-weight="900">18.7%</text><text x="448" y="326" fill="#8ea1be" font-size="22">Churn risk drop</text>
+      <rect x="706" y="214" width="240" height="150" rx="26" fill="#111c39"/><text x="734" y="276" fill="#34d399" font-size="44" font-weight="900">4.8x</text><text x="734" y="326" fill="#8ea1be" font-size="22">Report speed</text>
+      <rect x="134" y="400" width="812" height="92" rx="26" fill="#111c39"/><path d="M170 458 C250 400 320 472 400 420 S560 470 630 410 S760 455 905 398" fill="none" stroke="url(#cyan)" stroke-width="8" stroke-linecap="round"/>
+    </g>
+  </g>
+
+</svg>

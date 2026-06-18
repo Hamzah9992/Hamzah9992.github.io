@@ -1,0 +1,23 @@
+{
+  "name": "Hamzah Premium Portfolio",
+  "short_name": "Hamzah",
+  "description": "Premium Hamzah website and customer portal for plans, payment proof, admin approval, and project chat.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08090d",
+  "theme_color": "#8dffcf",
+  "icons": [
+    {
+      "src": "assets/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/hamzah-logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="780" viewBox="0 0 1250 780" role="img" aria-label="SaaS analytics dashboard mockup">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#050816"/><stop offset=".52" stop-color="#07111f"/><stop offset="1" stop-color="#193cff"/></linearGradient>
+    <linearGradient id="cyan" x1="0" x2="1"><stop stop-color="#6ee7ff"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000" flood-opacity=".45"/></filter>
+  </defs>
+  <rect width="1250" height="780" rx="28" fill="url(#bg)"/>
+  <circle cx="1075" cy="124" r="180" fill="#6ee7ff" opacity=".12"/>
+  <circle cx="187" cy="670" r="220" fill="#8b5cf6" opacity=".13"/>
+
+  <g filter="url(#shadow)">
+    <rect x="92" y="82" width="1066" height="610" rx="36" fill="#0b1224" stroke="#2f4fff" stroke-opacity=".42"/>
+    <rect x="92" y="82" width="190" height="610" rx="36" fill="#070b18"/>
+    <circle cx="142" cy="138" r="16" fill="#6ee7ff"/><text x="172" y="147" fill="#f8fbff" font-family="Arial" font-size="24" font-weight="700">SignalStack</text>
+    <g fill="#8ea1be" font-family="Arial" font-size="21"><text x="130" y="220">Overview</text><text x="130" y="274">Funnels</text><text x="130" y="328">Revenue</text><text x="130" y="382">Cohorts</text><text x="130" y="436">Reports</text></g>
+    <rect x="316" y="128" width="784" height="74" rx="22" fill="#101a33" stroke="#233a78"/>
+    <text x="344" y="176" fill="#f8fbff" font-family="Arial" font-size="31" font-weight="700">Executive growth dashboard</text>
+    <rect x="316" y="236" width="210" height="132" rx="24" fill="#101a33"/><rect x="552" y="236" width="210" height="132" rx="24" fill="#101a33"/><rect x="788" y="236" width="312" height="132" rx="24" fill="#101a33"/>
+    <text x="346" y="292" fill="#6ee7ff" font-family="Arial" font-size="42" font-weight="800">$84k</text><text x="582" y="292" fill="#a78bfa" font-family="Arial" font-size="42" font-weight="800">38%</text><text x="818" y="292" fill="#34d399" font-family="Arial" font-size="42" font-weight="800">12.4k</text>
+    <text x="346" y="330" fill="#8ea1be" font-family="Arial" font-size="19">MRR this month</text><text x="582" y="330" fill="#8ea1be" font-family="Arial" font-size="19">Activation lift</text><text x="818" y="330" fill="#8ea1be" font-family="Arial" font-size="19">Tracked events</text>
+    <rect x="316" y="400" width="470" height="238" rx="28" fill="#101a33"/><rect x="818" y="400" width="282" height="238" rx="28" fill="#101a33"/>
+    <path d="M360 570 C420 490 470 535 520 458 C580 370 655 510 740 438" fill="none" stroke="url(#cyan)" stroke-width="10" stroke-linecap="round"/>
+    <rect x="850" y="452" width="210" height="26" rx="13" fill="#263b76"/><rect x="850" y="505" width="160" height="26" rx="13" fill="#734bd9"/><rect x="850" y="558" width="190" height="26" rx="13" fill="#1fbad6"/>
+  </g>
+
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 680" role="img" aria-label="Fine dining editorial menu book preview">
+  <rect width="980" height="680" fill="#2a1510"/>
+  <rect x="74" y="66" width="832" height="548" rx="38" fill="#f8e1b7"/>
+  <path d="M490 66v548" stroke="#8a4a2a" stroke-width="4" opacity=".42"/>
+  <text x="122" y="136" fill="#2a1510" font-size="50" font-family="Georgia,serif">Seasonal tasting</text>
+  <text x="122" y="178" fill="#8a4a2a" font-size="18" font-family="Arial" letter-spacing="4">FOUR CHAPTERS</text>
+  <g font-family="Arial" fill="#2a1510">
+    <text x="122" y="252" font-size="25" font-weight="800">I. Ember tomato consomme</text><text x="122" y="284" font-size="16">basil oil · toasted seed crisp</text>
+    <text x="122" y="350" font-size="25" font-weight="800">II. Saffron lobster raviolo</text><text x="122" y="382" font-size="16">shellfish butter · citrus leaf</text>
+    <text x="122" y="448" font-size="25" font-weight="800">III. Charred lamb saddle</text><text x="122" y="480" font-size="16">date jus · smoked aubergine</text>
+  </g>
+  <g transform="translate(560 178)">
+    <circle cx="160" cy="166" r="118" fill="#fff8e3" stroke="#8a4a2a" stroke-width="8"/>
+    <circle cx="160" cy="166" r="55" fill="#bf5930"/><path d="M124 136c58-35 100-26 126 28" stroke="#f3c06f" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <text x="48" y="364" fill="#2a1510" font-size="32" font-family="Georgia,serif">Pairing note</text>
+    <path d="M48 394h230M48 424h180" stroke="#8a4a2a" stroke-width="5" opacity=".45"/>
+  </g>
+</svg>

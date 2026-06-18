@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+<title id="title">Fitness membership packages mockup</title><desc id="desc">Three membership package cards for trial, unlimited, and coaching programs.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff4d00"/><stop offset="1" stop-color="#e8ff3d"/></linearGradient></defs>
+<rect width="760" height="520" rx="36" fill="#0b0e14"/>
+<text x="48" y="82" fill="#fff" font-size="30" font-family="Arial" font-weight="900">Membership Options</text>
+<text x="48" y="112" fill="#aeb6c7" font-size="15" font-family="Arial">Clear plans for trial visitors, regular members, and coached programs.</text>
+<g transform="translate(48 160)">
+  <g><rect width="196" height="276" rx="28" fill="#151d2a" stroke="#ffffff" opacity=".98"/><text x="26" y="50" fill="#e8ff3d" font-family="Arial" font-size="13" font-weight="900">STARTER</text><text x="26" y="96" fill="#fff" font-family="Arial" font-size="28" font-weight="900">Trial</text><rect x="26" y="128" width="126" height="12" rx="6" fill="#30394c"/><rect x="26" y="160" width="142" height="12" rx="6" fill="#30394c"/><rect x="26" y="214" width="132" height="36" rx="18" fill="#e8ff3d"/></g>
+  <g transform="translate(222)"><rect width="196" height="276" rx="28" fill="url(#g)"/><text x="26" y="50" fill="#171000" font-family="Arial" font-size="13" font-weight="900">POPULAR</text><text x="26" y="96" fill="#171000" font-family="Arial" font-size="28" font-weight="900">Unlimited</text><rect x="26" y="128" width="126" height="12" rx="6" fill="#171000" opacity=".42"/><rect x="26" y="160" width="142" height="12" rx="6" fill="#171000" opacity=".42"/><rect x="26" y="214" width="132" height="36" rx="18" fill="#111827"/></g>
+  <g transform="translate(444)"><rect width="196" height="276" rx="28" fill="#151d2a" stroke="#ffffff" opacity=".98"/><text x="26" y="50" fill="#1ee6a8" font-family="Arial" font-size="13" font-weight="900">COACHED</text><text x="26" y="96" fill="#fff" font-family="Arial" font-size="28" font-weight="900">Personal</text><rect x="26" y="128" width="126" height="12" rx="6" fill="#30394c"/><rect x="26" y="160" width="142" height="12" rx="6" fill="#30394c"/><rect x="26" y="214" width="132" height="36" rx="18" fill="#1ee6a8"/></g>
+</g>
+</svg>

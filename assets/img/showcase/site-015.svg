@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Premium upgraded beauty salon website preview</title>
+  <desc id="desc">Elegant salon landing page preview with service menu, stylist cards, product shelf, booking panel, and beauty gallery.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff4f6"/><stop offset="0.45" stop-color="#f8d9de"/><stop offset="1" stop-color="#2c1520"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff3ba"/><stop offset="1" stop-color="#c88b3d"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="30" stdDeviation="22" flood-color="#2c1520" flood-opacity=".22"/></filter>
+  </defs>
+  <rect width="1200" height="800" rx="64" fill="url(#bg)"/>
+  <circle cx="1030" cy="118" r="180" fill="#fff" opacity=".25"/>
+  <circle cx="104" cy="680" r="210" fill="#ffffff" opacity=".16"/>
+  <g filter="url(#shadow)">
+    <rect x="90" y="86" width="1020" height="628" rx="42" fill="#fffaf6" opacity=".96"/>
+    <rect x="126" y="128" width="420" height="520" rx="30" fill="#331823"/>
+    <path d="M166 548 C214 424 282 372 330 288 C377 205 462 182 507 256 L507 648 L166 648 Z" fill="#f3b8c2" opacity=".9"/>
+    <circle cx="346" cy="260" r="94" fill="#f7d2d8"/>
+    <path d="M282 270 C284 192 337 142 405 171 C476 201 469 290 422 330 C384 361 318 336 282 270Z" fill="#5c2d39"/>
+    <rect x="612" y="138" width="420" height="74" rx="22" fill="#fff0f2"/>
+    <text x="644" y="184" font-family="Georgia,serif" font-size="32" font-weight="700" fill="#2c1520">Lumière Bloom Salon</text>
+    <text x="644" y="245" font-family="Inter,Arial" font-size="18" font-weight="700" fill="#a05a68">Premium upgraded · Beauty salon</text>
+    <text x="644" y="306" font-family="Georgia,serif" font-size="62" font-weight="700" fill="#2c1520">Beauty that feels personal.</text>
+    <g transform="translate(624 386)">
+      <rect width="150" height="170" rx="24" fill="#f9d8dd"/><text x="28" y="54" font-size="15" font-family="Inter,Arial" font-weight="800" fill="#2c1520">Hair Gloss</text><rect x="26" y="82" width="98" height="14" rx="7" fill="#fff"/><rect x="26" y="111" width="72" height="14" rx="7" fill="#fff" opacity=".7"/>
+      <rect x="174" width="150" height="170" rx="24" fill="#f2c5a5"/><text x="202" y="54" font-size="15" font-family="Inter,Arial" font-weight="800" fill="#2c1520">Skin Ritual</text><circle cx="249" cy="108" r="34" fill="#fff" opacity=".75"/>
+      <rect x="348" width="150" height="170" rx="24" fill="#2c1520"/><text x="379" y="54" font-size="15" font-family="Inter,Arial" font-weight="800" fill="#fff4f6">Makeup</text><path d="M386 118h76" stroke="url(#gold)" stroke-width="12" stroke-linecap="round"/>
+    </g>
+    <rect x="624" y="590" width="190" height="54" rx="27" fill="#2c1520"/><text x="665" y="625" font-size="16" font-family="Inter,Arial" font-weight="900" fill="#fff">Book visit</text>
+    <rect x="838" y="590" width="190" height="54" rx="27" fill="url(#gold)"/><text x="878" y="625" font-size="16" font-family="Inter,Arial" font-weight="900" fill="#2c1520">View menu</text>
+  </g>
+</svg>

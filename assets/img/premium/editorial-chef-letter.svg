@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 720" role="img" aria-label="Chef editorial story letter and portrait">
+  <rect width="840" height="720" fill="#2a1510"/>
+  <rect x="72" y="62" width="696" height="596" rx="34" fill="#fff1d1"/>
+  <text x="120" y="140" fill="#2a1510" font-size="50" font-family="Georgia,serif">A note from the chef</text>
+  <path d="M120 178h438" stroke="#8a4a2a" stroke-width="5" opacity=".45"/>
+  <g transform="translate(545 214)">
+    <circle cx="82" cy="82" r="70" fill="#d99a5d"/><path d="M22 74c18-60 105-70 128 0-40-18-86-18-128 0Z" fill="#fff7df"/><circle cx="62" cy="91" r="7" fill="#2a1510"/><circle cx="103" cy="91" r="7" fill="#2a1510"/><path d="M64 128c22 13 42 13 62 0" stroke="#2a1510" stroke-width="6" fill="none" stroke-linecap="round"/>
+  </g>
+  <g stroke="#8a4a2a" stroke-width="5" opacity=".38"><path d="M120 246h340M120 292h386M120 338h330M120 384h378M120 430h315"/></g>
+  <text x="120" y="520" fill="#2a1510" font-size="28" font-family="Georgia,serif">Fire, spice, and quiet service.</text>
+  <text x="120" y="564" fill="#6d3a24" font-size="18" font-family="Arial">Seasonal dining told through four editorial chapters.</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="700" viewBox="0 0 1080 700" role="img" aria-label="SaaS analytics dashboard mockup">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#050816"/><stop offset=".52" stop-color="#07111f"/><stop offset="1" stop-color="#193cff"/></linearGradient>
+    <linearGradient id="cyan" x1="0" x2="1"><stop stop-color="#6ee7ff"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000" flood-opacity=".45"/></filter>
+  </defs>
+  <rect width="1080" height="700" rx="28" fill="url(#bg)"/>
+  <circle cx="928" cy="112" r="180" fill="#6ee7ff" opacity=".12"/>
+  <circle cx="162" cy="602" r="220" fill="#8b5cf6" opacity=".13"/>
+
+  <g filter="url(#shadow)">
+    <rect x="116" y="86" width="848" height="528" rx="38" fill="#0b1224"/>
+    <path d="M540 150 L730 228 V342 C730 466 646 536 540 570 C434 536 350 466 350 342 V228 Z" fill="#111c39" stroke="#6ee7ff" stroke-width="6"/>
+    <path d="M475 350 L525 400 L620 292" fill="none" stroke="#34d399" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="235" y="156" fill="#f8fbff" font-family="Arial" font-size="39" font-weight="900">Security &amp; trust</text>
+    <g fill="#8ea1be" font-family="Arial" font-size="24"><text x="210" y="520">Roles</text><text x="400" y="520">Audit log</text><text x="590" y="520">SSO-ready</text><text x="790" y="520">Exports</text></g>
+  </g>
+
+</svg>

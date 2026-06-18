@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Cafe menu board with coffee and pastry categories">
+  <defs><linearGradient id="board" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#2f2017"/><stop offset="1" stop-color="#120c08"/></linearGradient><linearGradient id="tag" x1="0" x2="1"><stop stop-color="#b8f3d2"/><stop offset="1" stop-color="#f8d59a"/></linearGradient></defs>
+  <rect width="900" height="620" fill="#f2d8ac"/>
+  <rect x="72" y="62" width="756" height="496" rx="42" fill="url(#board)" stroke="#fff1cf" stroke-width="7"/>
+  <text x="124" y="136" fill="#fff1cf" font-size="48" font-family="Georgia,serif">Daily cafe menu</text>
+  <rect x="128" y="166" width="204" height="38" rx="19" fill="url(#tag)"/>
+  <text x="156" y="191" fill="#2b1b12" font-size="16" font-family="Arial" font-weight="800">best sellers</text>
+  <g font-family="Arial" fill="#f9e6be">
+    <text x="128" y="266" font-size="27" font-weight="800">Honey oat latte</text><text x="690" y="266" font-size="27" font-weight="800">₹240</text>
+    <text x="128" y="324" font-size="27" font-weight="800">Cold brew tonic</text><text x="690" y="324" font-size="27" font-weight="800">₹210</text>
+    <text x="128" y="382" font-size="27" font-weight="800">Pistachio croissant</text><text x="690" y="382" font-size="27" font-weight="800">₹180</text>
+    <text x="128" y="440" font-size="27" font-weight="800">Brunch toast plate</text><text x="690" y="440" font-size="27" font-weight="800">₹320</text>
+  </g>
+  <g stroke="#b8f3d2" stroke-width="3" opacity=".45"><path d="M128 286h640M128 344h640M128 402h640M128 460h640"/></g>
+</svg>

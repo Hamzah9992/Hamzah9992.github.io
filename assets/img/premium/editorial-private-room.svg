@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 680" role="img" aria-label="Private dining room package mockup">
+  <rect width="980" height="680" fill="#fff1d1"/>
+  <rect x="70" y="70" width="840" height="540" rx="42" fill="#2a1510"/>
+  <rect x="122" y="122" width="736" height="250" rx="34" fill="#5c2d1d" stroke="#d99a5d" stroke-width="5"/>
+  <g fill="#ffd27c" opacity=".84"><circle cx="250" cy="188" r="12"/><circle cx="382" cy="188" r="12"/><circle cx="514" cy="188" r="12"/><circle cx="646" cy="188" r="12"/><circle cx="778" cy="188" r="12"/></g>
+  <rect x="196" y="270" width="590" height="82" rx="41" fill="#f5d9a5"/>
+  <g transform="translate(156 426)">
+    <rect x="0" y="0" width="198" height="92" rx="26" fill="#fff1d1"/><text x="26" y="38" fill="#2a1510" font-size="20" font-family="Arial" font-weight="900">Chef table</text><text x="26" y="66" fill="#6d3a24" font-size="15" font-family="Arial">8 guests</text>
+    <rect x="234" y="0" width="198" height="92" rx="26" fill="#fff1d1"/><text x="260" y="38" fill="#2a1510" font-size="20" font-family="Arial" font-weight="900">Private room</text><text x="260" y="66" fill="#6d3a24" font-size="15" font-family="Arial">14 guests</text>
+    <rect x="468" y="0" width="198" height="92" rx="26" fill="#fff1d1"/><text x="494" y="38" fill="#2a1510" font-size="20" font-family="Arial" font-weight="900">Full buyout</text><text x="494" y="66" fill="#6d3a24" font-size="15" font-family="Arial">40 guests</text>
+  </g>
+</svg>

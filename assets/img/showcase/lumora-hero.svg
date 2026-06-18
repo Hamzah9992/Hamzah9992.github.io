@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1050" viewBox="0 0 1800 1050" role="img" aria-labelledby="title desc">
+<title id="title">Luxury villa at dusk</title><desc id="desc">A cinematic luxury residence with glass walls, pool, warm interior lights, and hills at dusk.</desc>
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#1d2934"/><stop offset=".48" stop-color="#202027"/><stop offset="1" stop-color="#07090b"/></linearGradient><linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d6b06e"/><stop offset="1" stop-color="#f2dfac"/></linearGradient><linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d7e7ef" stop-opacity=".44"/><stop offset="1" stop-color="#36515c" stop-opacity=".34"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1800" height="1050" fill="url(#sky)"/>
+<circle cx="1220" cy="290" r="210" fill="#eecb86" opacity=".12" filter="url(#glow)"/>
+<path d="M0 700 C250 610 385 650 560 580 C760 500 880 505 1100 470 C1340 430 1520 345 1800 420 L1800 1050 L0 1050Z" fill="#050709" opacity=".72"/>
+<path d="M0 760 C260 700 430 720 620 680 C850 630 1080 640 1330 590 C1550 550 1670 500 1800 540 L1800 1050 L0 1050Z" fill="#0a0e12"/>
+<rect x="650" y="330" width="850" height="350" rx="18" fill="#161714" stroke="#d6b06e" stroke-opacity=".18"/>
+<path d="M610 322 L1320 230 L1545 330 L845 415Z" fill="#25241e" stroke="#c7a563" stroke-opacity=".25"/>
+<rect x="725" y="375" width="250" height="250" fill="url(#glass)" stroke="#d8c08a" stroke-opacity=".28"/>
+<rect x="1010" y="350" width="390" height="285" fill="url(#glass)" stroke="#d8c08a" stroke-opacity=".28"/>
+<rect x="1455" y="390" width="118" height="288" fill="#1c1d19"/>
+<rect x="740" y="642" width="800" height="58" fill="#d6b06e" opacity=".28"/>
+<rect x="800" y="455" width="80" height="155" fill="#f2c06b" opacity=".45" filter="url(#glow)"/>
+<rect x="1110" y="430" width="150" height="160" fill="#f2c06b" opacity=".34" filter="url(#glow)"/>
+<ellipse cx="990" cy="800" rx="700" ry="95" fill="#0b2830" opacity=".88"/>
+<path d="M325 796 C560 850 1120 850 1630 790" stroke="#d6b06e" stroke-opacity=".28" stroke-width="5" fill="none"/>
+<g opacity=".78"><rect x="975" y="720" width="260" height="22" rx="11" fill="#fbf0cf" opacity=".5"/><rect x="1260" y="720" width="200" height="22" rx="11" fill="#fbf0cf" opacity=".36"/><rect x="755" y="730" width="170" height="18" rx="9" fill="#fbf0cf" opacity=".32"/></g>
+<g stroke="#d6b06e" stroke-width="4" opacity=".45"><path d="M1560 690 C1620 610 1665 595 1735 590"/><path d="M1600 680 C1640 640 1665 635 1705 630"/><path d="M1360 715 C1410 660 1460 650 1510 660"/></g>
+</svg>

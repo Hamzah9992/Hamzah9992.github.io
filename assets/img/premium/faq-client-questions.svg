@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+  <title id="title">Client questions board mockup</title>
+  <desc id="desc">A premium FAQ board showing client questions, answers, and project decision cards.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101827"/><stop offset="1" stop-color="#080A10"/></linearGradient><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8CEBFF"/><stop offset=".6" stop-color="#A78BFA"/><stop offset="1" stop-color="#F9C784"/></linearGradient><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#000" flood-opacity=".36"/></filter></defs>
+  <rect width="760" height="520" rx="38" fill="url(#bg)"/><circle cx="610" cy="100" r="94" fill="#8CEBFF" opacity=".08"/><circle cx="128" cy="414" r="108" fill="#A78BFA" opacity=".08"/>
+  <g filter="url(#sh)"><rect x="84" y="72" width="592" height="374" rx="34" fill="#0E1320" stroke="#fff" stroke-opacity=".12"/><rect x="122" y="112" width="216" height="24" rx="12" fill="#fff" opacity=".82"/><rect x="122" y="154" width="396" height="12" rx="6" fill="#fff" opacity=".18"/><rect x="122" y="176" width="308" height="12" rx="6" fill="#fff" opacity=".11"/>
+    <g font-family="Inter,Arial,sans-serif"><rect x="122" y="226" width="516" height="54" rx="20" fill="#141B2D"/><text x="152" y="260" fill="#F6F7FB" font-size="15" font-weight="800">Can this stay static and Appwrite-ready?</text><circle cx="604" cy="253" r="15" fill="url(#a)"/>
+    <rect x="122" y="302" width="516" height="54" rx="20" fill="#141B2D"/><text x="152" y="336" fill="#F6F7FB" font-size="15" font-weight="800">What do you need before starting?</text><circle cx="604" cy="329" r="15" fill="url(#a)" opacity=".75"/>
+    <rect x="122" y="378" width="516" height="38" rx="19" fill="url(#a)" opacity=".92"/><text x="270" y="402" fill="#07111A" font-size="14" font-weight="900">Clear answers before contact</text></g>
+  </g>
+</svg>

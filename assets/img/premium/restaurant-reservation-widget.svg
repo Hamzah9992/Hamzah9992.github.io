@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 620" role="img" aria-label="Restaurant reservation widget mockup">
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#fff0c2"/><stop offset="1" stop-color="#b87338"/></linearGradient></defs>
+  <rect width="880" height="620" fill="#090705"/>
+  <rect x="70" y="55" width="740" height="510" rx="38" fill="#15100d" stroke="#d9ad68" stroke-width="3"/>
+  <rect x="105" y="92" width="670" height="84" rx="30" fill="url(#bg)"/>
+  <text x="140" y="144" fill="#21140d" font-family="Georgia,serif" font-size="38">Reserve your table</text>
+  <g transform="translate(125 220)" font-family="Arial,sans-serif">
+    <rect x="0" y="0" width="180" height="118" rx="24" fill="#241914" stroke="#d7ad69"/><text x="26" y="46" fill="#f9d98a" font-size="15">DATE</text><text x="26" y="86" fill="#fff6d0" font-size="28" font-weight="700">Tonight</text>
+    <rect x="220" y="0" width="180" height="118" rx="24" fill="#241914" stroke="#d7ad69"/><text x="246" y="46" fill="#f9d98a" font-size="15">TIME</text><text x="246" y="86" fill="#fff6d0" font-size="28" font-weight="700">8:30 PM</text>
+    <rect x="440" y="0" width="180" height="118" rx="24" fill="#241914" stroke="#d7ad69"/><text x="466" y="46" fill="#f9d98a" font-size="15">GUESTS</text><text x="466" y="86" fill="#fff6d0" font-size="28" font-weight="700">2</text>
+    <rect x="0" y="158" width="620" height="76" rx="28" fill="#f4c16f"/><text x="202" y="206" fill="#21140d" font-size="24" font-weight="800">Check availability</text>
+    <text x="12" y="285" fill="#bca886" font-size="18">Live seating states, private dining enquiry, and phone fallback blocks.</text>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980" role="img" aria-label="Trust Proof">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#7c2d12"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fde68a"/><stop offset="1" stop-color="#f97316"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000" flood-opacity=".36"/></filter>
+  </defs>
+  <rect width="1400" height="980" rx="60" fill="url(#bg)"/>
+  <circle cx="1080" cy="130" r="250" fill="#f97316" opacity=".18"/>
+  <circle cx="210" cy="820" r="280" fill="#fef3c7" opacity=".12"/>
+  <path d="M110 190 C300 80 420 270 610 140 C760 35 910 85 1090 185 C1190 240 1270 238 1330 210" fill="none" stroke="#fff" stroke-opacity=".18" stroke-width="4"/>
+  <text x="90" y="132" fill="#fff" font-family="Georgia,serif" font-size="78" font-weight="700">Trust Proof</text>
+  <text x="95" y="190" fill="#fde68a" font-family="Arial,sans-serif" font-size="28" font-weight="800" letter-spacing="4">VENDORS · RUN SHEETS · GUEST FLOW</text>
+
+  <g filter="url(#shadow)" font-family="Arial">
+    <rect x="145" y="285" width="1110" height="470" rx="42" fill="#fff" opacity=".11" stroke="#fff" stroke-opacity=".17"/>
+    <rect x="210" y="355" width="300" height="310" rx="30" fill="#fff" opacity=".13"/><rect x="550" y="355" width="300" height="310" rx="30" fill="#fff" opacity=".13"/><rect x="890" y="355" width="300" height="310" rx="30" fill="#fff" opacity=".13"/>
+    <text x="250" y="440" fill="#fde68a" font-size="64" font-weight="900">48h</text><text x="250" y="505" fill="#fff" font-size="30" font-weight="900">Run sheet</text><text x="590" y="440" fill="#fde68a" font-size="64" font-weight="900">12+</text><text x="590" y="505" fill="#fff" font-size="30" font-weight="900">Vendors</text><text x="930" y="440" fill="#fde68a" font-size="64" font-weight="900">4</text><text x="930" y="505" fill="#fff" font-size="30" font-weight="900">Guest zones</text>
+    <text x="250" y="560" fill="#fef3c7" font-size="24">Timeline lock</text><text x="590" y="560" fill="#fef3c7" font-size="24">Coordination board</text><text x="930" y="560" fill="#fef3c7" font-size="24">Arrival flow</text>
+  </g>
+</svg>

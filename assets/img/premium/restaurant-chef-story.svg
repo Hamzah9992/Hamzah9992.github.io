@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 760" role="img" aria-label="Chef story portrait card illustration">
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#25130d"/><stop offset="1" stop-color="#0a0908"/></linearGradient></defs>
+  <rect width="760" height="760" rx="44" fill="url(#bg)"/>
+  <circle cx="380" cy="252" r="116" fill="#f0c884"/>
+  <path d="M260 246c23-92 217-92 240 0-58-36-181-36-240 0Z" fill="#fff5dd"/>
+  <circle cx="342" cy="267" r="10" fill="#24110c"/><circle cx="418" cy="267" r="10" fill="#24110c"/>
+  <path d="M349 321c28 22 58 22 86 0" stroke="#5f2b20" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M222 660c20-140 298-140 316 0" fill="#f9efe0"/>
+  <path d="M265 475h230" stroke="#d1a35c" stroke-width="8" stroke-linecap="round"/>
+  <text x="108" y="590" fill="#f6d58e" font-family="Georgia,serif" font-size="38">Chef-led story</text>
+  <text x="108" y="636" fill="#d9c8a8" font-family="Arial" font-size="20">Seasonal menu · open kitchen · private dining</text>
+</svg>

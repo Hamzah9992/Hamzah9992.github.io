@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+  <title id="title">Navigation command system mockup</title>
+  <desc id="desc">A premium command palette and navigation flow visual for a website interface.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#151726"/>
+      <stop offset="1" stop-color="#08090f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8CEBFF"/>
+      <stop offset=".5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#F9C784"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+  </defs>
+  <rect width="760" height="520" rx="38" fill="url(#bg)"/>
+  <path d="M86 105h588M86 415h588" stroke="#ffffff" stroke-opacity=".08" stroke-width="2"/>
+  <circle cx="606" cy="96" r="78" fill="#8CEBFF" opacity=".08"/>
+  <circle cx="140" cy="410" r="96" fill="#A78BFA" opacity=".08"/>
+  <g filter="url(#shadow)">
+    <rect x="78" y="70" width="604" height="76" rx="26" fill="#10131f" stroke="#ffffff" stroke-opacity=".12"/>
+    <circle cx="118" cy="108" r="18" fill="url(#accent)"/>
+    <text x="146" y="114" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="800">Hamzah</text>
+    <g font-family="Inter,Arial,sans-serif" font-size="13" fill="#B9C0D6">
+      <text x="274" y="113">Work</text><text x="334" y="113">Services</text><text x="421" y="113">Process</text><text x="505" y="113">Contact</text>
+    </g>
+    <rect x="580" y="89" width="74" height="38" rx="19" fill="url(#accent)" opacity=".95"/>
+    <text x="600" y="113" fill="#07111A" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="900">Start</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="142" y="178" width="476" height="260" rx="34" fill="#0F1220" stroke="#ffffff" stroke-opacity=".12"/>
+    <rect x="174" y="208" width="412" height="52" rx="18" fill="#171B2C"/>
+    <text x="198" y="240" fill="#DDE3F7" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">Search sections, services, contact…</text>
+    <rect x="174" y="284" width="184" height="48" rx="18" fill="#131827" stroke="#8CEBFF" stroke-opacity=".22"/>
+    <rect x="382" y="284" width="204" height="48" rx="18" fill="#131827" stroke="#A78BFA" stroke-opacity=".22"/>
+    <rect x="174" y="350" width="184" height="48" rx="18" fill="#131827" stroke="#F9C784" stroke-opacity=".22"/>
+    <rect x="382" y="350" width="204" height="48" rx="18" fill="#131827" stroke="#8CEBFF" stroke-opacity=".22"/>
+    <g font-family="Inter,Arial,sans-serif" font-size="14" font-weight="800" fill="#F6F7FB">
+      <text x="198" y="314">Website Types</text>
+      <text x="406" y="314">Launch Process</text>
+      <text x="198" y="380">Selected Work</text>
+      <text x="406" y="380">Start Project</text>
+    </g>
+    <g font-family="Inter,Arial,sans-serif" font-size="11" fill="#8D96B5">
+      <text x="198" y="330">Capability library</text>
+      <text x="406" y="330">Build roadmap</text>
+      <text x="198" y="396">Case-study cards</text>
+      <text x="406" y="396">Contact flow</text>
+    </g>
+  </g>
+  <g opacity=".75">
+    <path d="M364 146v32" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M380 146v32" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" opacity=".5"/>
+    <path d="M396 146v32" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" opacity=".3"/>
+  </g>
+</svg>

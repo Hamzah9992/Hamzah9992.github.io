@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" role="img" aria-label="Fine dining restaurant location and opening hours card">
+  <rect width="900" height="640" fill="#2a1510"/>
+  <rect x="58" y="58" width="784" height="524" rx="44" fill="#f5d9a5"/>
+  <g stroke="#b36b3e" stroke-width="4" opacity=".75"><path d="M110 160h680M110 240h680M110 320h680M110 400h680M110 480h680"/><path d="M210 110v420M350 110v420M490 110v420M630 110v420"/></g>
+  <path d="M150 460c74-92 122-132 210-98s110-80 178-120 122-52 210 18" stroke="#2a1510" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <circle cx="548" cy="262" r="44" fill="#2a1510"/><circle cx="548" cy="262" r="16" fill="#ffd27c"/>
+  <rect x="126" y="118" width="286" height="112" rx="30" fill="#2a1510"/>
+  <text x="154" y="164" fill="#ffd27c" font-size="30" font-family="Georgia,serif">Open tonight</text>
+  <text x="154" y="200" fill="#fff1d1" font-size="18" font-family="Arial">6:00 PM – 11:00 PM</text>
+  <rect x="534" y="418" width="230" height="82" rx="28" fill="#2a1510"/>
+  <text x="562" y="452" fill="#ffd27c" font-size="19" font-family="Arial" font-weight="900">Valet + terrace</text>
+  <text x="562" y="480" fill="#fff1d1" font-size="15" font-family="Arial">Location CTA area</text>
+</svg>

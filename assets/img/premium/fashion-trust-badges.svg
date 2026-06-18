@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="680" viewBox="0 0 1080 680" role="img" aria-label="Fashion ecommerce product mockup">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#24151b"/><stop offset=".55" stop-color="#3a2029"/><stop offset="1" stop-color="#f7dccb"/></linearGradient>
+    <linearGradient id="rose" x1="0" x2="1"><stop stop-color="#fff1e7"/><stop offset="1" stop-color="#d98a68"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000" flood-opacity=".34"/></filter>
+  </defs>
+  <rect width="1080" height="680" rx="30" fill="url(#bg)"/>
+  <circle cx="950" cy="102" r="170" fill="#fff1e7" opacity=".16"/>
+  <circle cx="129" cy="598" r="230" fill="#e0a086" opacity=".18"/>
+
+  <g filter="url(#shadow)">
+    <rect x="96" y="92" width="888" height="496" rx="36" fill="#fff7f0"/>
+    <text x="146" y="164" fill="#2a1820" font-family="Georgia,serif" font-size="44" font-weight="700">Shipping &amp; trust badges</text>
+    <g>
+      <rect x="146" y="230" width="180" height="170" rx="30" fill="#2a1820"/><text x="192" y="305" fill="#fff1e7" font-family="Arial" font-size="44" font-weight="900">48h</text><text x="180" y="352" fill="#e8a98d" font-family="Arial" font-size="19">Dispatch</text>
+      <rect x="368" y="230" width="180" height="170" rx="30" fill="#2a1820"/><text x="420" y="305" fill="#fff1e7" font-family="Arial" font-size="44" font-weight="900">7d</text><text x="410" y="352" fill="#e8a98d" font-family="Arial" font-size="19">Return</text>
+      <rect x="590" y="230" width="180" height="170" rx="30" fill="#2a1820"/><text x="630" y="305" fill="#fff1e7" font-family="Arial" font-size="44" font-weight="900">COD</text><text x="635" y="352" fill="#e8a98d" font-family="Arial" font-size="19">Option</text>
+      <rect x="812" y="230" width="120" height="170" rx="30" fill="#2a1820"/><text x="848" y="305" fill="#fff1e7" font-family="Arial" font-size="44" font-weight="900">✓</text><text x="835" y="352" fill="#e8a98d" font-family="Arial" font-size="19">Secure</text>
+    </g>
+  </g>
+
+</svg>

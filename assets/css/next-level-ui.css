@@ -1,0 +1,1128 @@
+/*
+  Next-level UI upgrade layer
+  Scope: main Hamzah landing page + Lumora / Ember showcases.
+  Design synthesis: Awwwards portfolio direction + Apple restraint + Linear precision + Stripe-grade conversion clarity.
+*/
+
+:root {
+  --nl-ink: #f7fbf8;
+  --nl-muted: rgba(231, 241, 239, .72);
+  --nl-soft: rgba(231, 241, 239, .52);
+  --nl-bg: #030608;
+  --nl-panel: rgba(255, 255, 255, .075);
+  --nl-panel-strong: rgba(255, 255, 255, .12);
+  --nl-line: rgba(180, 255, 226, .18);
+  --nl-cyan: #8dffcf;
+  --nl-blue: #a7c7ff;
+  --nl-gold: #ffe5a3;
+  --nl-violet: #b7a7ff;
+  --nl-radius: 34px;
+  --nl-shadow: 0 36px 130px rgba(0, 0, 0, .42);
+  --nl-ease: cubic-bezier(.2, .8, .2, 1);
+}
+
+/* ---------------- Main portfolio: high-end studio system ---------------- */
+body.premium-short-page {
+  --text: var(--nl-ink);
+  --muted: var(--nl-muted);
+  --accent: var(--nl-cyan);
+  --accent-2: var(--nl-gold);
+  --accent-3: var(--nl-blue);
+  background:
+    radial-gradient(circle at 10% 0%, rgba(141, 255, 207, .18), transparent 29%),
+    radial-gradient(circle at 86% 2%, rgba(167, 199, 255, .14), transparent 31%),
+    linear-gradient(180deg, #020508 0%, #071018 38%, #030609 100%) !important;
+  font-feature-settings: "cv01", "ss03";
+}
+
+body.premium-short-page::before {
+  opacity: .34 !important;
+  background-size: 92px 92px !important;
+}
+
+.premium-short-page .short-header {
+  width: min(1180px, calc(100% - 28px)) !important;
+  min-height: 64px !important;
+  padding: 9px 12px !important;
+  border-radius: 999px !important;
+  border-color: rgba(141, 255, 207, .22) !important;
+  background:
+    linear-gradient(90deg, rgba(4, 9, 13, .86), rgba(8, 14, 23, .72)) !important;
+  box-shadow:
+    0 22px 86px rgba(0, 0, 0, .46),
+    inset 0 1px 0 rgba(255, 255, 255, .10) !important;
+}
+
+.premium-short-page .short-brand img {
+  border-radius: 16px !important;
+  box-shadow: 0 0 0 1px rgba(141, 255, 207, .18), 0 16px 46px rgba(0, 0, 0, .35) !important;
+}
+
+.premium-short-page .short-brand span {
+  letter-spacing: .02em !important;
+  text-transform: none !important;
+}
+
+@media (min-width: 1181px) {
+  .premium-short-page .short-nav {
+    display: flex !important;
+    overflow: visible !important;
+  }
+}
+
+.premium-short-page .short-nav a {
+  color: rgba(235, 247, 248, .70) !important;
+  letter-spacing: .065em !important;
+}
+
+.premium-short-page .short-nav a:hover,
+.premium-short-page .short-nav a:focus-visible {
+  color: #f7fff9 !important;
+  background: rgba(141, 255, 207, .08) !important;
+  outline: 0;
+}
+
+.premium-short-page .short-actions .btn-primary {
+  min-width: 108px !important;
+  max-width: none !important;
+  color: #04100d !important;
+  background: linear-gradient(135deg, var(--nl-cyan), var(--nl-gold)) !important;
+  box-shadow: 0 18px 60px rgba(141, 255, 207, .20) !important;
+}
+
+.premium-short-page .rebuild-hero {
+  min-height: 100svh !important;
+  padding-top: 142px !important;
+  padding-bottom: 72px !important;
+  background:
+    linear-gradient(92deg, rgba(2, 5, 8, .98), rgba(2, 5, 8, .70) 42%, rgba(2, 5, 8, .38)),
+    radial-gradient(circle at 73% 38%, rgba(141, 255, 207, .20), transparent 33%),
+    radial-gradient(circle at 18% 82%, rgba(255, 229, 163, .14), transparent 30%) !important;
+}
+
+.premium-short-page .rebuild-hero::before {
+  background:
+    radial-gradient(circle at 16% 28%, rgba(141, 255, 207, .18), transparent 32%),
+    radial-gradient(circle at 86% 16%, rgba(167, 199, 255, .16), transparent 34%),
+    linear-gradient(90deg, rgba(2, 5, 8, .92), rgba(2, 5, 8, .62) 48%, rgba(2, 5, 8, .78)) !important;
+}
+
+.premium-short-page .rebuild-hero-media img {
+  opacity: .34 !important;
+  filter: brightness(.72) saturate(1.12) contrast(1.08) !important;
+}
+
+.premium-short-page .rebuild-hero-shell {
+  width: min(calc(100% - 48px), 1320px) !important;
+  grid-template-columns: minmax(0, .94fr) minmax(420px, .82fr) !important;
+  gap: clamp(34px, 5vw, 72px) !important;
+}
+
+.premium-short-page .rebuild-hero-copy .eyebrow,
+.premium-short-page .short-section-head .eyebrow,
+.premium-short-page .contact-command-head .eyebrow,
+.premium-short-page .signature-pill {
+  border-color: rgba(141, 255, 207, .24) !important;
+  background: rgba(141, 255, 207, .08) !important;
+  color: var(--nl-cyan) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .08);
+}
+
+.premium-short-page .rebuild-hero-copy h1 {
+  max-width: 9.4ch !important;
+  font-size: clamp(4rem, 7.6vw, 8rem) !important;
+  line-height: .84 !important;
+  letter-spacing: -.082em !important;
+  text-wrap: balance !important;
+}
+
+.premium-short-page .hero-lead,
+.premium-short-page .rebuild-hero-copy .hero-lead {
+  max-width: 710px !important;
+  color: rgba(235, 247, 248, .80) !important;
+  font-size: clamp(1.04rem, 1.42vw, 1.24rem) !important;
+  line-height: 1.74 !important;
+}
+
+.premium-short-page .rebuild-hero-badges span,
+.premium-short-page .rebuild-quality-strip span,
+.premium-short-page .hero-assurance span {
+  border-color: rgba(141, 255, 207, .21) !important;
+  background: linear-gradient(135deg, rgba(141, 255, 207, .10), rgba(255, 229, 163, .045)) !important;
+  color: rgba(239, 255, 249, .88) !important;
+}
+
+.premium-short-page .rebuild-command-deck {
+  border-radius: 42px !important;
+  padding: 18px !important;
+  border-color: rgba(141, 255, 207, .24) !important;
+  background:
+    radial-gradient(circle at 14% 0%, rgba(141, 255, 207, .16), transparent 38%),
+    linear-gradient(180deg, rgba(255, 255, 255, .13), rgba(255, 255, 255, .04)) !important;
+  box-shadow: 0 42px 150px rgba(0, 0, 0, .46), inset 0 1px 0 rgba(255, 255, 255, .11) !important;
+}
+
+.premium-short-page .rebuild-command-deck img {
+  border-radius: 30px !important;
+  filter: brightness(.94) saturate(1.11) contrast(1.06) !important;
+}
+
+.premium-short-page .deck-metrics div,
+.premium-short-page .delivery-timeline div,
+.premium-short-page .flow-rail article {
+  background: rgba(2, 8, 13, .66) !important;
+  border-color: rgba(141, 255, 207, .15) !important;
+}
+
+.ui-direction-board {
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid rgba(141, 255, 207, .12);
+  border-bottom: 1px solid rgba(141, 255, 207, .08);
+  background:
+    radial-gradient(circle at 12% 20%, rgba(141, 255, 207, .12), transparent 31%),
+    radial-gradient(circle at 84% 0%, rgba(255, 229, 163, .08), transparent 30%),
+    rgba(3, 8, 12, .72);
+}
+
+.ui-direction-board::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px),
+    linear-gradient(180deg, rgba(255,255,255,.025) 1px, transparent 1px);
+  background-size: 58px 58px;
+  mask-image: radial-gradient(circle at 50% 30%, black, transparent 74%);
+  opacity: .55;
+}
+
+.ui-direction-board > * {
+  position: relative;
+  z-index: 1;
+}
+
+.ui-direction-layout {
+  display: grid;
+  grid-template-columns: minmax(0, .88fr) minmax(0, 1.12fr);
+  gap: 22px;
+  align-items: stretch;
+}
+
+.ui-direction-copy {
+  display: grid;
+  align-content: center;
+  padding: clamp(24px, 4vw, 42px);
+  border: 1px solid rgba(141, 255, 207, .18);
+  border-radius: 36px;
+  background: linear-gradient(180deg, rgba(255,255,255,.105), rgba(255,255,255,.038));
+  box-shadow: var(--nl-shadow);
+}
+
+.ui-direction-copy h2 {
+  margin: 18px 0 14px;
+  max-width: 10ch;
+  font-size: clamp(2.6rem, 6vw, 5.8rem);
+  line-height: .86;
+  letter-spacing: -.075em;
+  text-wrap: balance;
+}
+
+.ui-direction-copy p:not(.eyebrow) {
+  margin: 0;
+  max-width: 620px;
+  color: var(--nl-muted);
+  line-height: 1.72;
+}
+
+.ui-direction-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.ui-direction-card {
+  min-height: 230px;
+  display: grid;
+  align-content: space-between;
+  gap: 18px;
+  padding: 24px;
+  border: 1px solid rgba(141, 255, 207, .16);
+  border-radius: 30px;
+  background:
+    radial-gradient(circle at 18% 0%, rgba(141,255,207,.14), transparent 34%),
+    linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.035));
+  box-shadow: 0 26px 100px rgba(0,0,0,.28), inset 0 1px 0 rgba(255,255,255,.08);
+}
+
+.ui-direction-card b {
+  color: var(--nl-cyan);
+  font-size: .76rem;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+
+.ui-direction-card h3 {
+  margin: 0;
+  font-size: clamp(1.35rem, 2.6vw, 2.15rem);
+  line-height: 1.02;
+  letter-spacing: -.045em;
+}
+
+.ui-direction-card p {
+  margin: 0;
+  color: var(--nl-muted);
+  line-height: 1.58;
+}
+
+.ui-direction-card:nth-child(2),
+.ui-direction-card:nth-child(4) {
+  background:
+    radial-gradient(circle at 86% 0%, rgba(255,229,163,.12), transparent 34%),
+    linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.035));
+}
+
+.premium-short-page .short-section-head h2,
+.premium-short-page .contact-command-head h2 {
+  max-width: 11.5ch;
+  text-wrap: balance !important;
+}
+
+.premium-short-page .compact-card-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 18px !important;
+}
+
+.premium-short-page .capability-card {
+  display: grid !important;
+  align-content: start !important;
+  gap: 0 !important;
+  border-radius: 32px !important;
+  overflow: hidden !important;
+  border-color: rgba(141, 255, 207, .18) !important;
+  background:
+    radial-gradient(circle at 20% 0%, rgba(141,255,207,.10), transparent 34%),
+    linear-gradient(180deg, rgba(255,255,255,.115), rgba(255,255,255,.035)) !important;
+}
+
+.premium-short-page .capability-card img {
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  aspect-ratio: 16 / 10 !important;
+  object-fit: cover !important;
+  border-radius: 24px !important;
+  filter: brightness(.98) saturate(1.12) contrast(1.06) !important;
+}
+
+.premium-short-page .capability-card h3 {
+  margin: 18px 4px 8px !important;
+  font-size: 1.2rem !important;
+}
+
+.premium-short-page .capability-card p {
+  margin: 0 4px 2px !important;
+}
+
+.premium-short-page .pricing-card {
+  border-radius: 36px !important;
+  padding: clamp(24px, 3.2vw, 38px) !important;
+  border-color: rgba(141,255,207,.19) !important;
+}
+
+.premium-short-page .pricing-card.featured::after {
+  content: none !important;
+  display: none !important;
+}
+
+.premium-short-page .pricing-card.featured::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* A-Z high-end redesign pass: reduce gimmicks, fix pricing scroll artifact, and make sections feel editorial-premium. */
+.premium-short-page .pricing-card::before,
+.premium-short-page .pricing-card::after,
+.premium-short-page .capability-card::after,
+.premium-short-page .portfolio-showcase-card::after {
+  display: none !important;
+  content: none !important;
+  animation: none !important;
+}
+
+.premium-short-page .short-section-head h2,
+.premium-short-page .contact-command-head h2 {
+  max-width: 900px !important;
+  font-size: clamp(2.15rem, 4.7vw, 4.75rem) !important;
+  line-height: .95 !important;
+  letter-spacing: -.062em !important;
+  text-wrap: balance !important;
+}
+
+.premium-short-page .plans-section .short-section-head h2 {
+  max-width: 760px !important;
+}
+
+.premium-short-page .short-section-head p,
+.premium-short-page .contact-command-head p {
+  max-width: 760px !important;
+  font-size: clamp(1rem, 1.25vw, 1.14rem) !important;
+  color: rgba(231, 241, 239, .76) !important;
+}
+
+.premium-short-page .section-pad {
+  padding-block: clamp(72px, 8vw, 116px) !important;
+}
+
+.premium-short-page .ui-direction-board,
+.premium-short-page .plans-section,
+.premium-short-page .showcase-highlight-section,
+.premium-short-page .contact-command-section {
+  position: relative;
+}
+
+.premium-short-page .pricing-grid {
+  gap: 22px !important;
+}
+
+.premium-short-page .pricing-card {
+  min-height: 100% !important;
+  padding: clamp(26px, 3.5vw, 44px) !important;
+  background:
+    linear-gradient(145deg, rgba(255,255,255,.12), rgba(255,255,255,.04)),
+    radial-gradient(circle at 18% 0%, rgba(141,255,207,.12), transparent 36%) !important;
+}
+
+.premium-short-page .pricing-card.featured {
+  transform: none !important;
+  background:
+    linear-gradient(145deg, rgba(141,255,207,.16), rgba(255,255,255,.052) 46%, rgba(255,229,163,.055)),
+    radial-gradient(circle at 14% 0%, rgba(255,229,163,.16), transparent 38%) !important;
+  border-color: rgba(255,229,163,.28) !important;
+}
+
+.premium-short-page .pricing-card h3 {
+  font-size: clamp(2.45rem, 4.8vw, 4rem) !important;
+  line-height: .92 !important;
+  letter-spacing: -.065em !important;
+  margin-block: 8px 6px !important;
+}
+
+.premium-short-page .pricing-card p {
+  font-size: 1.02rem !important;
+}
+
+.premium-short-page .pricing-card .btn {
+  margin-top: 4px;
+  min-height: 50px !important;
+}
+
+.premium-short-page .pricing-note-strip {
+  margin-top: 22px !important;
+}
+
+.premium-short-page .capability-card,
+.premium-short-page .portfolio-showcase-card,
+.premium-short-page .pricing-card,
+.premium-short-page .contact-direct-card,
+.premium-short-page .contact-brief-card,
+.premium-short-page .ui-direction-card,
+.premium-short-page .ui-direction-copy {
+  box-shadow:
+    0 26px 90px rgba(0,0,0,.30),
+    inset 0 1px 0 rgba(255,255,255,.10) !important;
+}
+
+.premium-short-page .capability-card:hover,
+.premium-short-page .portfolio-showcase-card:hover,
+.premium-short-page .pricing-card:hover,
+.premium-short-page .ui-direction-card:hover {
+  transform: translateY(-6px) !important;
+  border-color: rgba(255,229,163,.32) !important;
+  box-shadow:
+    0 34px 120px rgba(0,0,0,.38),
+    0 0 0 1px rgba(255,229,163,.08),
+    inset 0 1px 0 rgba(255,255,255,.12) !important;
+}
+
+.premium-short-page .capability-card h3,
+.premium-short-page .portfolio-showcase-card h3,
+.premium-short-page .pricing-card h3,
+.premium-short-page .ui-direction-card h3 {
+  color: #f8fff9 !important;
+}
+
+.premium-short-page .capability-card p,
+.premium-short-page .portfolio-showcase-card p,
+.premium-short-page .pricing-card p,
+.premium-short-page .pricing-card li,
+.premium-short-page .ui-direction-card p {
+  color: rgba(228, 239, 239, .78) !important;
+}
+
+.premium-short-page .portfolio-showcase-card strong {
+  color: var(--nl-gold) !important;
+}
+
+.premium-short-page .btn-primary {
+  background: linear-gradient(135deg, var(--nl-cyan), var(--nl-gold)) !important;
+  color: #04100d !important;
+  box-shadow: 0 18px 58px rgba(141,255,207,.20) !important;
+}
+
+.premium-short-page .btn-ghost {
+  border-color: rgba(255,255,255,.16) !important;
+  background: rgba(255,255,255,.07) !important;
+  color: #f7fff9 !important;
+}
+
+.premium-short-page .rebuild-quality-strip {
+  box-shadow: 0 22px 90px rgba(0,0,0,.28) !important;
+}
+
+.premium-short-page .rebuild-command-deck.fx-card,
+.premium-short-page .pricing-card.fx-card,
+.premium-short-page .contact-direct-card.fx-card,
+.premium-short-page .contact-brief-card.fx-card {
+  transform: none !important;
+}
+
+.premium-short-page .fx-card:hover::after {
+  opacity: .55 !important;
+}
+
+/* Demo upgrade pass: more distinct luxury identities and cleaner high-end cards. */
+body.lumora .demo-art-direction,
+body.ember .demo-art-direction {
+  overflow: hidden !important;
+}
+
+body.lumora .demo-proof-card,
+body.lumora .demo-art-copy,
+body.lumora .demo-inquiry-strip,
+body.lumora .card,
+body.lumora .step,
+body.lumora .panel,
+body.lumora .gallery-copy,
+body.lumora .footer-cta {
+  box-shadow: 0 26px 90px rgba(72,48,18,.13), inset 0 1px 0 rgba(255,255,255,.72) !important;
+}
+
+body.ember .demo-proof-card,
+body.ember .demo-art-copy,
+body.ember .demo-inquiry-strip,
+body.ember .card,
+body.ember .step,
+body.ember .panel,
+body.ember .gallery-copy,
+body.ember .footer-cta {
+  box-shadow: 0 30px 100px rgba(0,0,0,.32), inset 0 1px 0 rgba(255,255,255,.08) !important;
+}
+
+body.lumora .section-head h2,
+body.lumora .demo-art-copy h2,
+body.lumora .signature-band-copy h2,
+body.lumora .gallery-copy h2,
+body.lumora .panel h2,
+body.lumora .footer-cta h2,
+body.ember .section-head h2,
+body.ember .demo-art-copy h2,
+body.ember .signature-band-copy h2,
+body.ember .gallery-copy h2,
+body.ember .panel h2,
+body.ember .footer-cta h2 {
+  max-width: 12ch !important;
+  text-wrap: balance !important;
+}
+
+body.lumora .grid,
+body.ember .grid,
+body.lumora .process,
+body.ember .process {
+  gap: 18px !important;
+}
+
+body.lumora .card,
+body.ember .card {
+  transition: transform .35s var(--nl-ease), box-shadow .35s ease, border-color .35s ease !important;
+}
+
+body.lumora .card:hover,
+body.ember .card:hover,
+body.lumora .demo-proof-card:hover,
+body.ember .demo-proof-card:hover {
+  transform: translateY(-7px) !important;
+}
+
+body.lumora .hero-content,
+body.ember .hero-content {
+  max-width: 760px !important;
+}
+
+@media(max-width:760px){
+  .premium-short-page .short-section-head h2,
+  .premium-short-page .contact-command-head h2 {
+    font-size: clamp(2.15rem, 10.4vw, 3.35rem) !important;
+    line-height: .96 !important;
+    max-width: 100% !important;
+  }
+  .premium-short-page .plans-section .short-section-head h2 {
+    max-width: 100% !important;
+  }
+  .premium-short-page .pricing-card h3 {
+    font-size: clamp(2.2rem, 12vw, 3.1rem) !important;
+  }
+}
+
+/* disable duplicate featured badge declaration from earlier layer */
+.premium-short-page .pricing-card.featured::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* preserved for cascade safety */
+.premium-short-page .pricing-card.featured::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* old declaration neutralized */
+.premium-short-page .pricing-card.featured::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* legacy block disabled */
+.premium-short-page .pricing-card.featured::after.disabled-unused {
+  content: "Most complete";
+  position: absolute;
+  right: 22px;
+  top: 22px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  color: #100b03;
+  background: linear-gradient(135deg, var(--nl-gold), var(--nl-cyan));
+  font-size: .72rem;
+  font-weight: 1000;
+  letter-spacing: .11em;
+  text-transform: uppercase;
+}
+
+.premium-short-page .pricing-card ul {
+  padding: 0 !important;
+  list-style: none !important;
+}
+
+.premium-short-page .pricing-card li {
+  position: relative;
+  padding-left: 26px;
+}
+
+.premium-short-page .pricing-card li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: .55em;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--nl-cyan), var(--nl-gold));
+  box-shadow: 0 0 0 5px rgba(141, 255, 207, .08);
+}
+
+.pricing-note-strip {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.pricing-note-strip span {
+  display: grid;
+  place-items: center;
+  min-height: 54px;
+  padding: 12px 14px;
+  border: 1px solid rgba(141,255,207,.15);
+  border-radius: 18px;
+  background: rgba(255,255,255,.045);
+  color: rgba(239,255,249,.82);
+  font-weight: 900;
+  text-align: center;
+}
+
+.premium-short-page .portfolio-showcase-card {
+  border-radius: 38px !important;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.12), rgba(255,255,255,.04)) !important;
+  border-color: rgba(141, 255, 207, .2) !important;
+}
+
+.premium-short-page .portfolio-showcase-card img {
+  height: clamp(260px, 26vw, 390px) !important;
+  border-radius: 0 !important;
+}
+
+.premium-short-page .portfolio-showcase-card span {
+  margin-top: 24px !important;
+}
+
+.premium-short-page .flow-rail {
+  gap: 18px !important;
+}
+
+.premium-short-page .flow-rail article {
+  border-radius: 30px !important;
+  padding: 26px !important;
+}
+
+.premium-short-page .contact-direct-card,
+.premium-short-page .contact-brief-card {
+  border-radius: 40px !important;
+  border-color: rgba(141, 255, 207, .24) !important;
+}
+
+.premium-short-page .contact-mail-hero {
+  min-height: 420px !important;
+  border-color: rgba(141,255,207,.18) !important;
+  background:
+    linear-gradient(180deg, rgba(2,6,12,.20), rgba(2,6,12,.88)),
+    radial-gradient(circle at 22% 24%, rgba(141,255,207,.22), transparent 34%),
+    url('../img/generated/hamzah-client-communication.png') center/cover !important;
+}
+
+.premium-short-page .contact-mail-hero h3 {
+  color: var(--nl-cyan) !important;
+}
+
+/* ---------------- Showcase pages: luxury demo upgrade ---------------- */
+body.lumora,
+body.ember {
+  font-feature-settings: "cv01", "ss03";
+}
+
+body.lumora .showcase-nav,
+body.ember .showcase-nav {
+  width: min(calc(100% - 28px), 1180px) !important;
+  min-height: 64px !important;
+  padding: 10px 12px !important;
+  border-radius: 999px !important;
+}
+
+body.lumora .hero,
+body.ember .hero {
+  width: min(calc(100% - 28px), 1180px) !important;
+  border-radius: 46px !important;
+  min-height: min(820px, calc(100svh - 102px)) !important;
+}
+
+body.lumora .hero h1,
+body.ember .hero h1 {
+  max-width: 9.5ch !important;
+  font-size: clamp(3.5rem, 8vw, 8.4rem) !important;
+  line-height: .84 !important;
+  letter-spacing: -.082em !important;
+  text-wrap: balance;
+}
+
+body.lumora .hero p,
+body.ember .hero p {
+  max-width: 620px;
+}
+
+.demo-art-direction {
+  position: relative;
+  overflow: hidden !important;
+  padding-top: 72px !important;
+  padding-bottom: 72px !important;
+}
+
+.demo-art-direction::before {
+  content: "";
+  position: absolute;
+  inset: 18px;
+  border-radius: 38px;
+  pointer-events: none;
+  opacity: .52;
+}
+
+.lumora .demo-art-direction::before {
+  border: 1px solid rgba(86, 64, 30, .13);
+  background:
+    radial-gradient(circle at 16% 16%, rgba(157,107,47,.16), transparent 34%),
+    radial-gradient(circle at 86% 8%, rgba(223,177,95,.14), transparent 32%);
+}
+
+.ember .demo-art-direction::before {
+  border: 1px solid rgba(255,177,93,.15);
+  background:
+    radial-gradient(circle at 16% 16%, rgba(255,177,93,.15), transparent 34%),
+    radial-gradient(circle at 86% 8%, rgba(199,78,30,.14), transparent 32%);
+}
+
+.demo-art-shell {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, .82fr) minmax(0, 1.18fr);
+  gap: 18px;
+  align-items: stretch;
+}
+
+.demo-art-copy,
+.demo-proof-card,
+.demo-inquiry-strip {
+  border-radius: 32px;
+  box-shadow: 0 28px 100px rgba(0,0,0,.18), inset 0 1px 0 rgba(255,255,255,.10);
+}
+
+.demo-art-copy {
+  display: grid;
+  align-content: center;
+  gap: 14px;
+  padding: clamp(24px, 4vw, 40px);
+}
+
+.lumora .demo-art-copy,
+.lumora .demo-proof-card,
+.lumora .demo-inquiry-strip {
+  border: 1px solid rgba(86,64,30,.16);
+  background: linear-gradient(180deg, rgba(255,255,255,.90), rgba(255,250,238,.72));
+  color: #19140c;
+}
+
+.ember .demo-art-copy,
+.ember .demo-proof-card,
+.ember .demo-inquiry-strip {
+  border: 1px solid rgba(255,177,93,.18);
+  background: linear-gradient(180deg, rgba(255,177,93,.12), rgba(255,255,255,.04));
+  color: #fff3df;
+}
+
+.demo-art-copy h2 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: clamp(2.3rem, 4.8vw, 4.6rem);
+  line-height: .92;
+  letter-spacing: -.065em;
+  text-wrap: balance;
+}
+
+.demo-art-copy p:not(.eyebrow) {
+  margin: 0;
+  max-width: 560px;
+  line-height: 1.72;
+}
+
+.lumora .demo-art-copy p:not(.eyebrow) { color: #695d4d !important; }
+.ember .demo-art-copy p:not(.eyebrow) { color: #c7a987 !important; }
+
+.demo-proof-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.demo-proof-card {
+  min-height: 270px;
+  display: grid;
+  align-content: space-between;
+  gap: 18px;
+  padding: 22px;
+}
+
+.demo-proof-card b {
+  width: max-content;
+  padding: 8px 11px;
+  border-radius: 999px;
+  font-size: .72rem;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+
+.lumora .demo-proof-card b {
+  color: #150f07;
+  background: linear-gradient(135deg, #dfb15f, #fff0bc);
+}
+
+.ember .demo-proof-card b {
+  color: #160905;
+  background: linear-gradient(135deg, #c87532, #ffd18a);
+}
+
+.demo-proof-card h3 {
+  margin: 0;
+  font-size: clamp(1.24rem, 2.2vw, 1.85rem);
+  line-height: 1.02;
+  letter-spacing: -.045em;
+}
+
+.demo-proof-card p {
+  margin: 0;
+  line-height: 1.58;
+}
+
+.demo-inquiry-strip {
+  position: relative;
+  z-index: 1;
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 18px;
+  align-items: center;
+  padding: clamp(20px, 3vw, 30px);
+}
+
+.demo-inquiry-strip h3 {
+  margin: 0 0 6px;
+  font-size: clamp(1.35rem, 2.5vw, 2.1rem);
+  letter-spacing: -.045em;
+}
+
+.demo-inquiry-strip p { margin: 0; }
+
+.lumora .demo-inquiry-strip p { color: #695d4d !important; }
+.ember .demo-inquiry-strip p { color: #c7a987 !important; }
+
+body.lumora .card,
+body.lumora .step,
+body.lumora .panel,
+body.lumora .gallery-copy,
+body.lumora .footer-cta,
+body.lumora .media-stack {
+  border-radius: 32px !important;
+}
+
+body.ember .card,
+body.ember .step,
+body.ember .panel,
+body.ember .gallery-copy,
+body.ember .footer-cta,
+body.ember .media-stack {
+  border-radius: 32px !important;
+}
+
+body.lumora .card img,
+body.ember .card img,
+body.lumora .media-stack img,
+body.ember .media-stack img {
+  filter: brightness(.94) saturate(1.08) contrast(1.05) !important;
+}
+
+body.lumora .footer-cta,
+body.ember .footer-cta {
+  align-items: center !important;
+}
+
+/* ---------------- Responsive hardening ---------------- */
+@media (max-width: 1180px) {
+  .premium-short-page .compact-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+  .premium-short-page .short-actions .btn-primary {
+    min-width: 96px !important;
+  }
+}
+
+@media (max-width: 1080px) {
+  .premium-short-page .rebuild-hero-shell,
+  .ui-direction-layout,
+  .demo-art-shell {
+    grid-template-columns: 1fr !important;
+  }
+  .premium-short-page .rebuild-command-deck {
+    max-width: 780px;
+  }
+}
+
+@media (max-width: 860px) {
+  .ui-direction-grid,
+  .demo-proof-grid,
+  .pricing-note-strip {
+    grid-template-columns: 1fr !important;
+  }
+  .demo-inquiry-strip {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 760px) {
+  .premium-short-page .short-header {
+    width: calc(100% - 16px) !important;
+    min-height: 56px !important;
+    border-radius: 22px !important;
+  }
+  .premium-short-page .short-actions .btn-primary {
+    min-width: 64px !important;
+    max-width: 72px !important;
+    padding: 0 12px !important;
+    font-size: .82rem !important;
+  }
+  .premium-short-page .rebuild-hero {
+    padding-top: 88px !important;
+    padding-bottom: 48px !important;
+  }
+  .premium-short-page .rebuild-hero-shell {
+    width: calc(100% - 22px) !important;
+    gap: 26px !important;
+  }
+  .premium-short-page .rebuild-hero-copy h1 {
+    max-width: 9.4ch !important;
+    font-size: clamp(3rem, 14.2vw, 4.55rem) !important;
+    line-height: .88 !important;
+  }
+  .premium-short-page .section-pad {
+    width: min(calc(100% - 22px), 1180px) !important;
+    padding-block: 68px !important;
+  }
+  .premium-short-page .short-section-head h2,
+  .premium-short-page .contact-command-head h2,
+  .ui-direction-copy h2 {
+    font-size: clamp(2.45rem, 12vw, 3.8rem) !important;
+    line-height: .92 !important;
+  }
+  .premium-short-page .compact-card-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .premium-short-page .capability-card {
+    display: block !important;
+    padding: 14px !important;
+  }
+  .premium-short-page .capability-card img {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 16 / 10 !important;
+  }
+  .premium-short-page .rebuild-quality-strip {
+    grid-template-columns: 1fr !important;
+  }
+  .premium-short-page .contact-mail-hero h3 span {
+    white-space: normal !important;
+  }
+  body.lumora .showcase-nav,
+  body.ember .showcase-nav {
+    width: calc(100% - 18px) !important;
+    border-radius: 22px !important;
+  }
+  body.lumora .hero,
+  body.ember .hero {
+    width: calc(100% - 18px) !important;
+    border-radius: 30px !important;
+    min-height: auto !important;
+  }
+  body.lumora .hero h1,
+  body.ember .hero h1 {
+    font-size: clamp(2.7rem, 13vw, 4.15rem) !important;
+    line-height: .92 !important;
+  }
+  .demo-art-direction {
+    padding-top: 54px !important;
+    padding-bottom: 54px !important;
+  }
+  .demo-art-direction::before {
+    inset: 8px;
+    border-radius: 28px;
+  }
+  .demo-art-copy,
+  .demo-proof-card,
+  .demo-inquiry-strip {
+    border-radius: 24px !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .premium-short-page .short-brand {
+    max-width: 128px !important;
+  }
+  .premium-short-page .short-brand span {
+    font-size: .86rem !important;
+  }
+  .premium-short-page .short-actions .btn-primary {
+    min-width: 58px !important;
+    max-width: 62px !important;
+    font-size: .78rem !important;
+  }
+  .premium-short-page .menu-toggle {
+    flex-basis: 38px !important;
+    width: 38px !important;
+    height: 38px !important;
+    min-width: 38px !important;
+    min-height: 38px !important;
+  }
+  .premium-short-page .rebuild-hero-copy h1 {
+    font-size: clamp(2.65rem, 13.5vw, 3.75rem) !important;
+  }
+  .premium-short-page .contact-mail-hero h3 {
+    font-size: clamp(1.48rem, 7vw, 1.95rem) !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: .001ms !important;
+  }
+}
+
+/* Critical inquiry section must never be captured or reached mid-blur. */
+html.effects-ready .premium-short-page #contact,
+html.effects-ready .premium-short-page #contact .reveal,
+html.effects-ready .premium-short-page #contact .contact-command-head,
+html.effects-ready .premium-short-page #contact .contact-direct-card,
+html.effects-ready .premium-short-page #contact .contact-brief-card,
+html.effects-ready .premium-short-page #contact .delivery-timeline div {
+  opacity: 1 !important;
+  transform: none !important;
+  filter: none !important;
+  transition-delay: 0ms !important;
+}
+
+/* User-reported pricing scroll fix: no floating/shimmer pseudo-element should pass over ₹16,999. */
+.premium-short-page #plans {
+  scroll-margin-top: 84px;
+}
+.premium-short-page #plans .pricing-card::before,
+.premium-short-page #plans .pricing-card::after {
+  display: none !important;
+  content: none !important;
+  animation: none !important;
+}
+html.effects-ready .premium-short-page #plans .reveal,
+html.effects-ready .premium-short-page #plans .pricing-card,
+html.effects-ready .premium-short-page #plans .pricing-card.featured,
+html.effects-ready .premium-short-page #plans .pricing-note-strip {
+  opacity: 1 !important;
+  transform: none !important;
+  filter: none !important;
+  transition-delay: 0ms !important;
+}
+
+/* Final scroll stability: keep content visible instead of popping in while the user scrolls. */
+body.premium-short-page .fx-ambient,
+body.premium-short-page .fx-cursor {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+.premium-short-page .sr-only {
+  position: absolute !important;
+  left: -10000px !important;
+  top: auto !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip-path: inset(50%) !important;
+  white-space: nowrap !important;
+  opacity: 0 !important;
+}
+html.effects-ready .premium-short-page .reveal,
+html.effects-ready .premium-short-page .reveal.visible,
+html.effects-ready .premium-short-page .reveal.is-visible {
+  opacity: 1 !important;
+  transform: none !important;
+  filter: none !important;
+  transition: none !important;
+  transition-delay: 0ms !important;
+}

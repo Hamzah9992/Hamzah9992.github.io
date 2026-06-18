@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-label="Restaurant food gallery mockup with four dishes">
+  <defs><radialGradient id="plate" cx="50%" cy="45%" r="55%"><stop stop-color="#fff8e4"/><stop offset=".62" stop-color="#d8c59e"/><stop offset="1" stop-color="#31221a"/></radialGradient></defs>
+  <rect width="1000" height="700" fill="#0d0907"/>
+  <g transform="translate(70 70)">
+    <rect x="0" y="0" width="390" height="250" rx="34" fill="#20130f" stroke="#d7aa62"/>
+    <circle cx="120" cy="126" r="74" fill="url(#plate)"/><circle cx="118" cy="122" r="35" fill="#b45d34"/><circle cx="150" cy="139" r="12" fill="#f7d58b"/>
+    <text x="230" y="112" fill="#f9df9b" font-family="Georgia,serif" font-size="25">Truffle ravioli</text><text x="230" y="146" fill="#cab28a" font-family="Arial" font-size="15">butter · parmesan</text>
+    <rect x="470" y="0" width="390" height="250" rx="34" fill="#20130f" stroke="#d7aa62"/>
+    <circle cx="590" cy="126" r="74" fill="url(#plate)"/><path d="M545 130c60-38 93-26 113 20" stroke="#d5efe3" stroke-width="22" stroke-linecap="round"/><circle cx="626" cy="108" r="11" fill="#f7d58b"/>
+    <text x="700" y="112" fill="#f9df9b" font-family="Georgia,serif" font-size="25">Sea bass</text><text x="700" y="146" fill="#cab28a" font-family="Arial" font-size="15">fennel · citrus</text>
+    <rect x="0" y="320" width="390" height="250" rx="34" fill="#20130f" stroke="#d7aa62"/>
+    <circle cx="120" cy="446" r="74" fill="url(#plate)"/><rect x="82" y="419" width="78" height="50" rx="16" fill="#7f2b23"/><circle cx="132" cy="424" r="13" fill="#ebbe62"/>
+    <text x="230" y="432" fill="#f9df9b" font-family="Georgia,serif" font-size="25">Slow beef</text><text x="230" y="466" fill="#cab28a" font-family="Arial" font-size="15">jus · root veg</text>
+    <rect x="470" y="320" width="390" height="250" rx="34" fill="#20130f" stroke="#d7aa62"/>
+    <circle cx="590" cy="446" r="74" fill="url(#plate)"/><circle cx="590" cy="446" r="39" fill="#f1d485"/><circle cx="612" cy="430" r="12" fill="#e38954"/>
+    <text x="700" y="432" fill="#f9df9b" font-family="Georgia,serif" font-size="25">Panna cotta</text><text x="700" y="466" fill="#cab28a" font-family="Arial" font-size="15">orange blossom</text>
+  </g>
+</svg>

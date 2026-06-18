@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="720" viewBox="0 0 1120 720" role="img" aria-label="SaaS analytics dashboard mockup">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#050816"/><stop offset=".52" stop-color="#07111f"/><stop offset="1" stop-color="#193cff"/></linearGradient>
+    <linearGradient id="cyan" x1="0" x2="1"><stop stop-color="#6ee7ff"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000" flood-opacity=".45"/></filter>
+  </defs>
+  <rect width="1120" height="720" rx="28" fill="url(#bg)"/>
+  <circle cx="963" cy="115" r="180" fill="#6ee7ff" opacity=".12"/>
+  <circle cx="168" cy="619" r="220" fill="#8b5cf6" opacity=".13"/>
+
+  <g filter="url(#shadow)">
+    <rect x="82" y="88" width="956" height="544" rx="36" fill="#0b1224"/>
+    <text x="126" y="156" fill="#f8fbff" font-family="Arial" font-size="42" font-weight="800">Feature matrix</text>
+    <g font-family="Arial" font-size="22">
+      <rect x="126" y="208" width="868" height="64" rx="18" fill="#111c39"/><text x="160" y="249" fill="#f8fbff">Feature</text><text x="550" y="249" fill="#6ee7ff">Launch</text><text x="730" y="249" fill="#a78bfa">Scale</text><text x="880" y="249" fill="#34d399">Elite</text>
+      <g fill="#8ea1be"><text x="160" y="324">Event tracking</text><text x="160" y="388">Funnel analysis</text><text x="160" y="452">Revenue cohorts</text><text x="160" y="516">AI anomaly alerts</text></g>
+      <g fill="#6ee7ff" font-weight="900"><text x="580" y="324">✓</text><text x="580" y="388">✓</text><text x="580" y="452">—</text><text x="580" y="516">—</text></g>
+      <g fill="#a78bfa" font-weight="900"><text x="760" y="324">✓</text><text x="760" y="388">✓</text><text x="760" y="452">✓</text><text x="760" y="516">—</text></g>
+      <g fill="#34d399" font-weight="900"><text x="905" y="324">✓</text><text x="905" y="388">✓</text><text x="905" y="452">✓</text><text x="905" y="516">✓</text></g>
+    </g>
+  </g>
+
+</svg>

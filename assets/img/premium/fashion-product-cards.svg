@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="740" viewBox="0 0 1160 740" role="img" aria-label="Fashion ecommerce product mockup">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#24151b"/><stop offset=".55" stop-color="#3a2029"/><stop offset="1" stop-color="#f7dccb"/></linearGradient>
+    <linearGradient id="rose" x1="0" x2="1"><stop stop-color="#fff1e7"/><stop offset="1" stop-color="#d98a68"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000" flood-opacity=".34"/></filter>
+  </defs>
+  <rect width="1160" height="740" rx="30" fill="url(#bg)"/>
+  <circle cx="1020" cy="111" r="170" fill="#fff1e7" opacity=".16"/>
+  <circle cx="139" cy="651" r="230" fill="#e0a086" opacity=".18"/>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="76" width="1020" height="588" rx="38" fill="#fff7f0"/>
+    <text x="118" y="142" fill="#2a1820" font-family="Georgia,serif" font-size="44" font-weight="700">Featured products</text>
+    <g>
+      <rect x="118" y="190" width="215" height="390" rx="28" fill="#fff"/><rect x="143" y="218" width="165" height="190" rx="24" fill="#3a2029"/><path d="M205 260 C220 235 258 235 272 260 L292 382 H185 Z" fill="#e7a98e"/><text x="143" y="455" fill="#2a1820" font-family="Arial" font-size="21" font-weight="800">Linen Midi Dress</text><text x="143" y="492" fill="#8b5e4b" font-family="Arial" font-size="20">₹4,299</text><rect x="143" y="522" width="120" height="38" rx="14" fill="#2a1820"/><text x="164" y="547" fill="#fff" font-family="Arial" font-size="15" font-weight="800">Add to cart</text>
+      <rect x="370" y="190" width="215" height="390" rx="28" fill="#fff"/><rect x="395" y="218" width="165" height="190" rx="24" fill="#f1c7b4"/><path d="M438 260 H540 L525 382 H455 Z" fill="#2a1820"/><text x="395" y="455" fill="#2a1820" font-family="Arial" font-size="21" font-weight="800">Tailored Blazer</text><text x="395" y="492" fill="#8b5e4b" font-family="Arial" font-size="20">₹6,899</text><rect x="395" y="522" width="120" height="38" rx="14" fill="#2a1820"/><text x="416" y="547" fill="#fff" font-family="Arial" font-size="15" font-weight="800">Add to cart</text>
+      <rect x="622" y="190" width="215" height="390" rx="28" fill="#fff"/><rect x="647" y="218" width="165" height="190" rx="24" fill="#3a2029"/><circle cx="730" cy="304" r="58" fill="#e7a98e"/><text x="647" y="455" fill="#2a1820" font-family="Arial" font-size="21" font-weight="800">Silk Scarf Set</text><text x="647" y="492" fill="#8b5e4b" font-family="Arial" font-size="20">₹2,499</text><rect x="647" y="522" width="120" height="38" rx="14" fill="#2a1820"/><text x="668" y="547" fill="#fff" font-family="Arial" font-size="15" font-weight="800">Add to cart</text>
+      <rect x="874" y="190" width="165" height="390" rx="28" fill="#2a1820"/><text x="905" y="298" fill="#fff1e7" font-family="Georgia,serif" font-size="34" font-weight="700">Cart</text><text x="910" y="346" fill="#e0a086" font-family="Arial" font-size="21">3 items</text><rect x="904" y="382" width="100" height="44" rx="16" fill="url(#rose)"/><text x="925" y="411" fill="#2a1820" font-family="Arial" font-size="15" font-weight="900">Checkout</text>
+    </g>
+  </g>
+
+</svg>

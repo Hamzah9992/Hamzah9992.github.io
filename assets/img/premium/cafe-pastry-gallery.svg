@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-label="Cafe pastry and drink gallery mockup">
+  <rect width="1000" height="700" fill="#2d1c12"/>
+  <g transform="translate(70 64)">
+    <rect x="0" y="0" width="405" height="260" rx="34" fill="#fff0cc"/><circle cx="132" cy="130" r="74" fill="#d18b4d"/><path d="M72 126c52-42 112-42 165 0" stroke="#fff8e4" stroke-width="24" fill="none"/><text x="242" y="122" fill="#3c2415" font-size="28" font-family="Georgia,serif">Croissant shelf</text><text x="242" y="158" fill="#7d5737" font-size="16" font-family="Arial">fresh every morning</text>
+    <rect x="455" y="0" width="405" height="260" rx="34" fill="#b8f3d2"/><circle cx="588" cy="128" r="72" fill="#fff4d5"/><circle cx="588" cy="128" r="38" fill="#6a3e26"/><text x="698" y="122" fill="#173126" font-size="28" font-family="Georgia,serif">Latte bar</text><text x="698" y="158" fill="#315244" font-size="16" font-family="Arial">specialty drinks</text>
+    <rect x="0" y="312" width="405" height="260" rx="34" fill="#f5c783"/><rect x="80" y="388" width="122" height="82" rx="24" fill="#7b4529"/><circle cx="178" cy="392" r="20" fill="#fff0cc"/><text x="242" y="432" fill="#3c2415" font-size="28" font-family="Georgia,serif">Brunch plates</text><text x="242" y="468" fill="#7d5737" font-size="16" font-family="Arial">weekend specials</text>
+    <rect x="455" y="312" width="405" height="260" rx="34" fill="#fff0cc"/><path d="M568 398c-48 28-44 84 12 100 66 18 122-20 98-74-18-40-64-55-110-26Z" fill="#5b351f"/><text x="698" y="432" fill="#3c2415" font-size="28" font-family="Georgia,serif">Coffee beans</text><text x="698" y="468" fill="#7d5737" font-size="16" font-family="Arial">retail bags</text>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900" role="img" aria-labelledby="title desc">
+  <title id="title">Plan and email discussion preview</title>
+  <desc id="desc">A premium interface preview showing plan selection, project brief, and direct email discussion.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#182842"/></linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#76f2d0"/><stop offset="1" stop-color="#9b8cff"/></linearGradient>
+  </defs>
+  <rect width="1500" height="900" rx="70" fill="url(#bg)"/>
+  <g opacity=".28" stroke="#fff" stroke-width="1"><path d="M0 140h1500M0 280h1500M0 420h1500M0 560h1500M0 700h1500M160 0v900M320 0v900M480 0v900M640 0v900M800 0v900M960 0v900M1120 0v900M1280 0v900"/></g>
+  <rect x="100" y="105" width="560" height="620" rx="44" fill="#ffffff" fill-opacity=".07" stroke="#fff" stroke-opacity=".14"/>
+  <text x="150" y="180" fill="#76f2d0" font-family="Inter,Arial" font-size="22" font-weight="900">PLAN SELECTED</text>
+  <text x="150" y="245" fill="#fff" font-family="Inter,Arial" font-size="54" font-weight="900">Website build</text>
+  <rect x="150" y="315" width="430" height="76" rx="22" fill="#07111f" stroke="#76f2d0" stroke-opacity=".35"/>
+  <rect x="150" y="420" width="430" height="76" rx="22" fill="#07111f" stroke="#fff" stroke-opacity=".12"/>
+  <rect x="150" y="525" width="430" height="76" rx="22" fill="#07111f" stroke="#fff" stroke-opacity=".12"/>
+  <path d="M710 450h190" stroke="url(#a)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M870 398l58 52-58 52" fill="none" stroke="#9b8cff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="945" y="140" width="430" height="520" rx="44" fill="#ffffff" fill-opacity=".08" stroke="#fff" stroke-opacity=".14"/>
+  <text x="995" y="215" fill="#76f2d0" font-family="Inter,Arial" font-size="22" font-weight="900">EMAIL DISCUSSION</text>
+  <rect x="995" y="275" width="300" height="28" rx="14" fill="#fff" fill-opacity=".8"/>
+  <rect x="995" y="340" width="255" height="20" rx="10" fill="#fff" fill-opacity=".38"/>
+  <rect x="995" y="390" width="310" height="20" rx="10" fill="#fff" fill-opacity=".25"/>
+  <rect x="995" y="440" width="230" height="20" rx="10" fill="#fff" fill-opacity=".25"/>
+  <rect x="995" y="510" width="300" height="70" rx="24" fill="url(#a)" fill-opacity=".9"/>
+  <text x="1035" y="555" fill="#07111f" font-family="Inter,Arial" font-size="24" font-weight="900">Reply with next steps</text>
+</svg>

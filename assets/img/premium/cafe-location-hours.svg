@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 620" role="img" aria-label="Cafe location map and opening hours card">
+  <rect width="880" height="620" fill="#fff0cc"/>
+  <rect x="54" y="54" width="772" height="512" rx="42" fill="#f7dca9" stroke="#5b351f" stroke-width="5"/>
+  <g stroke="#d2a164" stroke-width="4" opacity=".9"><path d="M100 150h680M100 230h680M100 310h680M100 390h680M100 470h680"/><path d="M190 100v410M330 100v410M470 100v410M610 100v410"/></g>
+  <path d="M154 444c70-90 142-118 212-82s112-70 172-104 108-34 188 24" stroke="#5b351f" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <circle cx="552" cy="280" r="42" fill="#b8f3d2" stroke="#173126" stroke-width="8"/>
+  <rect x="118" y="104" width="286" height="108" rx="28" fill="#2c1a10"/>
+  <text x="146" y="148" fill="#b8f3d2" font-family="Georgia,serif" font-size="28">Open today</text>
+  <text x="146" y="184" fill="#fff0cc" font-family="Arial" font-size="18">7:30 AM – 10:00 PM</text>
+  <rect x="508" y="396" width="246" height="88" rx="28" fill="#b8f3d2"/>
+  <text x="536" y="432" fill="#173126" font-family="Arial" font-size="19" font-weight="900">Near central park</text>
+  <text x="536" y="462" fill="#315244" font-family="Arial" font-size="16">Pickup window + Wi-Fi</text>
+</svg>

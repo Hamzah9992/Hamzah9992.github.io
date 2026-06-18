@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Modern cafe storefront with coffee bar and morning window light">
+  <defs>
+    <linearGradient id="wall" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#fff2d7"/><stop offset=".48" stop-color="#eecf9d"/><stop offset="1" stop-color="#8a5a39"/></linearGradient>
+    <linearGradient id="mint" x1="0" x2="1"><stop stop-color="#b8f3d2"/><stop offset="1" stop-color="#5fbf9b"/></linearGradient>
+    <linearGradient id="coffee" x1="0" x2="1"><stop stop-color="#5b351f"/><stop offset="1" stop-color="#1f120b"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1200" height="760" fill="#3a2417"/>
+  <rect x="56" y="58" width="1088" height="644" rx="48" fill="url(#wall)"/>
+  <circle cx="935" cy="145" r="220" fill="#fff6d3" opacity=".42" filter="url(#soft)"/>
+  <rect x="110" y="108" width="390" height="348" rx="34" fill="#9cd8dd" stroke="#fff8e3" stroke-width="10"/>
+  <rect x="548" y="108" width="390" height="348" rx="34" fill="#9cd8dd" stroke="#fff8e3" stroke-width="10"/>
+  <g stroke="#ffffff" stroke-width="6" opacity=".6"><path d="M305 112v340M744 112v340M118 282h374M556 282h374"/></g>
+  <rect x="128" y="495" width="944" height="102" rx="45" fill="url(#coffee)"/>
+  <rect x="176" y="442" width="250" height="92" rx="32" fill="#f9efd2" stroke="#6b3e25" stroke-width="5"/>
+  <text x="213" y="497" fill="#5b351f" font-size="35" font-family="Georgia,serif">Bloom &amp; Bean</text>
+  <g transform="translate(716 410)">
+    <rect x="0" y="38" width="220" height="118" rx="24" fill="#23201d"/>
+    <rect x="34" y="0" width="150" height="72" rx="24" fill="#d8f3e1"/>
+    <circle cx="78" cy="98" r="18" fill="#b8f3d2"/><circle cx="142" cy="98" r="18" fill="#b8f3d2"/>
+    <path d="M40 153h150" stroke="#f4ca8d" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(458 520)">
+    <circle cx="0" cy="0" r="54" fill="#fff3d4"/><circle cx="0" cy="0" r="28" fill="#6b3e25"/><path d="M38 -6h42c30 0 30 42 0 42H39" fill="none" stroke="#fff3d4" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <rect x="803" y="594" width="206" height="52" rx="26" fill="url(#mint)"/>
+  <text x="836" y="627" fill="#173124" font-size="18" font-family="Arial" font-weight="800">Order ahead</text>
+</svg>

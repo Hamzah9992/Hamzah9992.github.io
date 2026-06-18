@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="680" viewBox="0 0 920 680" role="img" aria-labelledby="title desc">
+<title id="title">Law firm hero document desk mockup</title><desc id="desc">A premium legal desk composition with contract folders, consultation cards, scales icon, and document review panels.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset=".55" stop-color="#0f1d2e"/><stop offset="1" stop-color="#2a1d10"/></linearGradient><linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c49a45"/><stop offset="1" stop-color="#f4d58d"/></linearGradient></defs>
+<rect width="920" height="680" rx="48" fill="url(#bg)"/>
+<circle cx="750" cy="92" r="210" fill="#c49a45" opacity=".14"/><circle cx="130" cy="560" r="230" fill="#7dd3fc" opacity=".08"/>
+<g stroke="#fff" opacity=".07"><path d="M0 170h920M0 340h920M0 510h920"/><path d="M184 0v680M368 0v680M552 0v680M736 0v680"/></g>
+<g transform="translate(70 88)">
+  <rect width="500" height="430" rx="34" fill="#0c1726" stroke="#ffffff" opacity=".98"/>
+  <rect x="32" y="32" width="436" height="82" rx="24" fill="#142235" stroke="#ffffff" opacity=".92"/>
+  <text x="58" y="68" fill="#fff" font-family="Arial" font-size="24" font-weight="900">Aster &amp; Vale Legal</text>
+  <text x="58" y="94" fill="#b9c3d1" font-family="Arial" font-size="14">Consultation intake and matter review</text>
+  <g transform="translate(32 144)">
+    <rect width="206" height="134" rx="24" fill="url(#gold)"/>
+    <text x="24" y="42" fill="#111827" font-family="Arial" font-size="15" font-weight="900">CONSULTATION</text>
+    <text x="24" y="82" fill="#111827" font-family="Arial" font-size="34" font-weight="900">48 hr</text>
+    <text x="24" y="110" fill="#111827" font-family="Arial" font-size="13">response workflow</text>
+  </g>
+  <g transform="translate(262 144)">
+    <rect width="206" height="134" rx="24" fill="#19283c" stroke="#fff" opacity=".97"/>
+    <text x="24" y="42" fill="#fff" font-family="Arial" font-size="15" font-weight="900">DOCUMENTS</text>
+    <rect x="24" y="66" width="146" height="10" rx="5" fill="#314156"/><rect x="24" y="88" width="118" height="10" rx="5" fill="#314156"/><rect x="24" y="110" width="158" height="10" rx="5" fill="#c49a45"/>
+  </g>
+  <g transform="translate(32 308)">
+    <rect width="436" height="82" rx="24" fill="#142235" stroke="#fff" opacity=".94"/>
+    <circle cx="52" cy="41" r="25" fill="url(#gold)"/>
+    <path d="M40 46h24M52 24v38M35 62h34" stroke="#111827" stroke-width="6" stroke-linecap="round"/>
+    <text x="92" y="37" fill="#fff" font-family="Arial" font-size="17" font-weight="900">Book a consultation</text>
+    <text x="92" y="61" fill="#b9c3d1" font-family="Arial" font-size="13">Static enquiry flow for client-ready presentation</text>
+  </g>
+</g>
+<g transform="translate(630 120)">
+  <rect width="220" height="430" rx="34" fill="#09111d" stroke="#ffffff"/>
+  <rect x="24" y="30" width="172" height="370" rx="24" fill="#132136"/>
+  <text x="46" y="78" fill="#fff" font-family="Arial" font-size="21" font-weight="900">Matter File</text>
+  <g fill="#24354b"><rect x="46" y="116" width="128" height="12" rx="6"/><rect x="46" y="146" width="96" height="12" rx="6"/><rect x="46" y="176" width="118" height="12" rx="6"/></g>
+  <circle cx="110" cy="260" r="62" fill="none" stroke="#314156" stroke-width="16"/><path d="M110 198a62 62 0 0 1 58 83" fill="none" stroke="url(#gold)" stroke-width="16" stroke-linecap="round"/>
+  <text x="80" y="269" fill="#fff" font-family="Arial" font-size="28" font-weight="900">72%</text>
+  <rect x="46" y="342" width="128" height="42" rx="21" fill="url(#gold)"/>
+</g>
+</svg>

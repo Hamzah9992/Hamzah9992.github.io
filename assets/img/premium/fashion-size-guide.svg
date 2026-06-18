@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="690" viewBox="0 0 1080 690" role="img" aria-label="Fashion ecommerce product mockup">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#24151b"/><stop offset=".55" stop-color="#3a2029"/><stop offset="1" stop-color="#f7dccb"/></linearGradient>
+    <linearGradient id="rose" x1="0" x2="1"><stop stop-color="#fff1e7"/><stop offset="1" stop-color="#d98a68"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000" flood-opacity=".34"/></filter>
+  </defs>
+  <rect width="1080" height="690" rx="30" fill="url(#bg)"/>
+  <circle cx="950" cy="103" r="170" fill="#fff1e7" opacity=".16"/>
+  <circle cx="129" cy="607" r="230" fill="#e0a086" opacity=".18"/>
+
+  <g filter="url(#shadow)">
+    <rect x="100" y="86" width="880" height="518" rx="36" fill="#fff7f0"/>
+    <text x="146" y="154" fill="#2a1820" font-family="Georgia,serif" font-size="44" font-weight="700">Size guide preview</text>
+    <rect x="146" y="200" width="790" height="72" rx="18" fill="#2a1820"/><g fill="#fff1e7" font-family="Arial" font-size="22" font-weight="800"><text x="190" y="246">Size</text><text x="360" y="246">Bust</text><text x="530" y="246">Waist</text><text x="705" y="246">Hip</text></g>
+    <g font-family="Arial" font-size="22"><text x="190" y="330" fill="#2a1820">S</text><text x="360" y="330" fill="#786157">34 in</text><text x="530" y="330" fill="#786157">27 in</text><text x="705" y="330" fill="#786157">36 in</text><text x="190" y="402" fill="#2a1820">M</text><text x="360" y="402" fill="#786157">36 in</text><text x="530" y="402" fill="#786157">29 in</text><text x="705" y="402" fill="#786157">38 in</text><text x="190" y="474" fill="#2a1820">L</text><text x="360" y="474" fill="#786157">38 in</text><text x="530" y="474" fill="#786157">31 in</text><text x="705" y="474" fill="#786157">40 in</text></g>
+    <rect x="146" y="520" width="360" height="46" rx="16" fill="#e8a98d"/><text x="170" y="550" fill="#2a1820" font-family="Arial" font-size="18" font-weight="800">Fit notes reduce returns</text>
+  </g>
+
+</svg>
